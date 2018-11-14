@@ -4,6 +4,9 @@ eaef51fb449c09e8994afe92a52c5c73a8f9b304  ./avformat-57.dll
 4227ca8ab9a6246b850f9053927f704cc6a84700  ./avutil-55.dll
 85d23c4d0b5cc26b9d4ccaacf5f564435bce1685  ./cvlib.dll
 1b5a50cd9d0ace574b84d1022360f3d996cb975a  ./fileinfo.dat
+d9582e419c73e36d8acc507be4cb0f5ee25d6162  ./GCBase_MD_VC140_v3_0.dll
+be8d591ba51330c43a32180305dbb1cda5f4e6ea  ./GenApi_MD_VC140_v3_0.dll
+17063d31f07714e20fe35da84db349db0bc94bbc  ./GenTL_v140.dll
 acd5c1c807b78bb1f8253a2899b1f0c2786fef22  ./imageformats/qdds.dll
 3c91871c4ed29c2a59ec6891a5f0a5f025dcd1c8  ./imageformats/qgif.dll
 3484204897240053145202ac58bdb4b85a552747  ./imageformats/qicns.dll
@@ -20,7 +23,12 @@ f5be3b755e783ce0b2030cc44122fed2b284dbda  ./imageformats/qjpeg.dll
 75e9c6fff957c7fbde816b31cadca420ebd9618a  ./iris_mv_v140_x64.dll
 5ee8abf016c47867003d368efc1d19e96b6c970c  ./iris_qt_v140_x64.dll
 f06555012ce9a9292f5bad93ff5e073363fe626d  ./iris_v140_x64.dll
-b62c5ed98f3a3ef7826ae612eabebff19d9654ff  ./libiomp5md.dll
+faa1e27eaaea8826c3e3dd93ef5e849e15877b51  ./libiomp5md.dll
+c28f0f1a86673bddd5bf53ff49c57b17ae3e31bb  ./log4cpp.spinnaker.property
+28b4d73e308c633a7229791c26aa3823f88ac124  ./log4cpp_MD_VC140_v3_0.dll
+392e7225c22cdef1240370c4c29881550643428e  ./Log_MD_VC140_v3_0.dll
+ab063b5591c5d32e0afa65ff71f3618fa25457f3  ./MathParser_MD_VC140_v3_0.dll
+e0fff08d4948a578f13815708ec5e8d12fb7c342  ./NodeMapData_MD_VC140_v3_0.dll
 751dcef568b159622bef5a4887cdd87cea465af1  ./pcl_common_release.dll
 86709524592abf30e7f3fa1d02dde0f8f3d380c7  ./pcl_features_release.dll
 1142047166666c3f0af8896e109a072ed8faae00  ./pcl_filters_release.dll
@@ -37,3 +45,13 @@ f59fe862d90cb560d5602e60b686bc8feff2e1bf  ./Qt5Network.dll
 ef21effa289e59146e0ed3cedf5cba15ae54b1de  ./Qt5Svg.dll
 7129d3f495513c4bb14e6e00075eeb8430d88fd3  ./Qt5Widgets.dll
 2be88ca4242c76e8253ac62474851065032d6833  ./settings.json
+6489a6c75c82ef90b53edfc85a7ac78b6dcc2153  ./SFNC_GenTLDataStream_GigE_Version_1_0_0_Schema_1_1.xml
+ad5a77ff94a81c91afe489db4ce5560c3ba865a6  ./SFNC_GenTLDataStream_Usb3_Version_1_0_0_Schema_1_1.xml
+e6f9c848b56128d4f210875a60f286b10fb86d45  ./SFNC_GenTLDevice_GigE_Version_1_0_0_Schema_1_1.xml
+4d8f3b5a8debaa6b0168ecd8facc3a2782f2c7d4  ./SFNC_GenTLDevice_Reference_Version_1_0_0_Schema_1_1.xml
+eb38a798aee5b8865e6db9c28f1635eecef50ac1  ./SFNC_GenTLDevice_Usb3_Version_1_0_0_Schema_1_1.xml
+990d393c23b079598788dc513d9904abe89b3a69  ./SFNC_GenTLInterface_GigE_Version_1_0_0_Schema_1_1.xml
+8bc1d83245b1ba18b5fdbe815ac7fb507257bc46  ./SFNC_GenTLInterface_Reference_Version_1_0_0_Schema_1_1.xml
+8f15dbe56043374f5c37434d4483143ce528e5b4  ./SFNC_GenTLInterface_Usb3_Version_1_0_0_Schema_1_1.xml
+bd4198086280c2b93cdf9057cd90f56dec50300a  ./Spinnaker_v140.dll
+9d28b1e4088c46ca5950f8a6e181e45485e38c5d  ./XMLParser_MD_VC140_v3_0.dll
