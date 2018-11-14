@@ -54,4 +54,5 @@ eb38a798aee5b8865e6db9c28f1635eecef50ac1  ./SFNC_GenTLDevice_Usb3_Version_1_0_0_
 8bc1d83245b1ba18b5fdbe815ac7fb507257bc46  ./SFNC_GenTLInterface_Reference_Version_1_0_0_Schema_1_1.xml
 8f15dbe56043374f5c37434d4483143ce528e5b4  ./SFNC_GenTLInterface_Usb3_Version_1_0_0_Schema_1_1.xml
 bd4198086280c2b93cdf9057cd90f56dec50300a  ./Spinnaker_v140.dll
+b0fecc16b86314939e21ce814b0c2f7e80944e63  ./version.dat
 9d28b1e4088c46ca5950f8a6e181e45485e38c5d  ./XMLParser_MD_VC140_v3_0.dll
