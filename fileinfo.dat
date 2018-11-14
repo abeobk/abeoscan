@@ -45,6 +45,7 @@ a1e3909b7658b0350b5288da98cdb2d1c9a32fa1  ./pcl_plugin_v140_x64.dll
 cf379df3822a913bf6fd2fe43e9b24b9ff2144c0  ./pcl_sample_consensus_release.dll
 a65879cea99e6989f424895927911a8a136570a8  ./pcl_search_release.dll
 6113372fb8e2e4bd8805fbc9bd2b7bd84a49aea7  ./pcl_surface_release.dll
+355877b250f4c53bdc5eed71f8e32ec9e546080c  ./PGRHostControl_dll.dll
 913e61e8842876da8302c495fcda1c02d6995785  ./platforms/qwindows.dll
 bf718031416f08877e13be53c8b72f078860fc03  ./PtGreyVideoEncoder_v140.dll
 9aad9ed4aa4214734ddd42d35747f991eef92e79  ./Qt5Core.dll
