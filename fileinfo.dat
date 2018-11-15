@@ -1,4 +1,4 @@
-ce627bceb8229916cc9f98e2ab5406a939223cc5  ./AbeoScan_v140_x64.exe
+2cac1ed766000ca0dda86210bb7c291a4fc3ba5d  ./AbeoScan_v140_x64.exe
 93d26df20de2db0cd7f805d01b3299fca6045544  ./Abeosys.Controls.dll
 b6019cad970720b8d84b5f7b150eb94e179c66d4  ./Abeosys.Robotic.dll
 d92454c46f60a2882da0f12fb399c32f808ec58f  ./AbeosysLib.dll
@@ -123,7 +123,7 @@ be4964aaa34b170a7586e8662bc3b624987becaf  ./BaslerGenICamSource_v5_1.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 85d23c4d0b5cc26b9d4ccaacf5f564435bce1685  ./cvlib.dll
 4e2379103ec47658996273b84a74c26480a47b5f  ./devices.dat
-0cf227c9f7a2a4fb54dd5398a10bb2603368c9ef  ./fileinfo.dat
+419d808a91b361b56119a9b850463feedaac5404  ./fileinfo.dat
 d9582e419c73e36d8acc507be4cb0f5ee25d6162  ./GCBase_MD_VC140_v3_0.dll
 c8c0f8772755c6aa596186690053d6de490a5b0e  ./GCBase_MD_VC141_v3_1_Basler_pylon_v5_1.dll
 be8d591ba51330c43a32180305dbb1cda5f4e6ea  ./GenApi_MD_VC140_v3_0.dll
