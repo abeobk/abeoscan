@@ -122,8 +122,8 @@ d86ec96aa3ce59d6aae64241e32fb67e93edf9aa  ./BaslerCSC_v5_1.ax
 be4964aaa34b170a7586e8662bc3b624987becaf  ./BaslerGenICamSource_v5_1.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 85d23c4d0b5cc26b9d4ccaacf5f564435bce1685  ./cvlib.dll
-74d45769c61ab8e13c860ba673e7e81787ad5065  ./devices.dat
-006615fbb04fabe61da5bed076d037cef472e3df  ./fileinfo.dat
+4e2379103ec47658996273b84a74c26480a47b5f  ./devices.dat
+0cf227c9f7a2a4fb54dd5398a10bb2603368c9ef  ./fileinfo.dat
 d9582e419c73e36d8acc507be4cb0f5ee25d6162  ./GCBase_MD_VC140_v3_0.dll
 c8c0f8772755c6aa596186690053d6de490a5b0e  ./GCBase_MD_VC141_v3_1_Basler_pylon_v5_1.dll
 be8d591ba51330c43a32180305dbb1cda5f4e6ea  ./GenApi_MD_VC140_v3_0.dll
