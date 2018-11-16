@@ -1,0 +1,853 @@
+{
+  "iris::graphic::PoissonSurfaceReconstructor": {
+    "Categories": {
+      "Solver":{
+        "Text":"Solver",
+        "ToolTip":"Solver ToolTip"
+      }
+    },
+    "Properties": {
+      "Depth": {
+        "Accessibility": "ReadWrite",
+        "Category": "Solver",
+        "Default": 8,
+        "Max": 12,
+        "Min": 5,
+        "Text": "Depth",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "IsoDivide": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 8,
+        "Max": 10,
+        "Min": 5,
+        "Text": "Iso divide",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "SamplePerNode": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 1.0,
+        "Max": 20.0,
+        "Min": 1.0,
+        "Text": "Sample per node",
+        "ToolTip": "",
+        "Visibility": "Guru"
+      },
+      "Scale": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 1.1,
+        "Max": 2.0,
+        "Min": 1.0,
+        "Text": "Scale",
+        "ToolTip": "",
+        "Visibility": "Guru"
+      },
+      "SolverDivide": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 8,
+        "Max": 10,
+        "Min": 5,
+        "Text": "Solver divide",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      }
+    },
+    "Text": "Mesh Reconstruction",
+    "ToolTip": "Poisson surface reconstruction method"
+  },
+  "iris::hw::ptgrey::PtgreyUsb3Camera": {
+    "Categories": {
+      "Acquisition":{
+        "Text":"Acquisition controls",
+        "ToolTip":"Acquisition controls"
+      },
+      "Analog":{
+        "Text": "Analog controls",
+        "ToolTip": "Analog controls"
+      },
+      "ImageFormat":{
+        "Text": "Image format controls",
+        "ToolTip": "Image format controls"
+      }
+    },
+    "Properties": {
+      "BufferCount": {
+        "Accessibility": "ReadOnly",
+        "Category": "Acquisition",
+        "Default": 12,
+        "Max": 48,
+        "Min": 1,
+        "Text": "Buffer count",
+        "ToolTip": "",
+        "Visibility": "Guru"
+      },
+      "EnableGamma": {
+        "Accessibility": "ReadWrite",
+        "Category": "Analog",
+        "Default": true,
+        "Text": "Enable gamma",
+        "ToolTip": "",
+        "Visibility": "Guru"
+      },
+      "EnableTrigger": {
+        "Accessibility": "ReadOnly",
+        "Category": "Acquisition",
+        "Default": true,
+        "Text": "Enable trigger",
+        "ToolTip": "",
+        "Visibility": "Guru"
+      },
+      "ExposureTime": {
+        "Accessibility": "ReadWrite",
+        "Category": "Acquisition",
+        "Default": 4166,
+        "Max": 1000000,
+        "Min": 100,
+        "Text": "Exposure time",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "GainAll": {
+        "Accessibility": "ReadWrite",
+        "Category": "Analog",
+        "Default": 1.0,
+        "Max": 50.0,
+        "Min": 0.0,
+        "Text": "Gain all",
+        "ToolTip": "",
+        "Visibility": "Expert"
+      },
+      "Gamma": {
+        "Accessibility": "ReadWrite",
+        "Category": "Analog",
+        "Default": 1.0,
+        "Max": 4.0,
+        "Min": 0.25,
+        "Text": "Gamma",
+        "ToolTip": "",
+        "Visibility": "Expert"
+      },
+      "Output1": {
+        "Accessibility": "ReadOnly",
+        "Category": "",
+        "Default": false,
+        "Text": "Output1",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "PixelFormat": {
+        "Accessibility": "ReadOnly",
+        "Category": "ImageFormat",
+        "Default": "Mono8",
+        "Max": "BayerGB8",
+        "Min": "Mono8",
+        "Text": "Pixel format",
+        "ToolTip": "",
+        "Visibility": "Guru"
+      },
+      "ReverseX": {
+        "Accessibility": "ReadOnly",
+        "Category": "ImageFormat",
+        "Default": false,
+        "Text": "Reverse x",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "ReverseY": {
+        "Accessibility": "ReadOnly",
+        "Category": "",
+        "Default": false,
+        "Text": "Reverse y",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "TriggerEdge": {
+        "Accessibility": "ReadOnly",
+        "Category": "Acquisition",
+        "Default": "Rising",
+        "Max": "Falling",
+        "Min": "Rising",
+        "Text": "Trigger edge",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "TriggerSource": {
+        "Accessibility": "ReadOnly",
+        "Category": "Acquisition",
+        "Default": "Software",
+        "Max": "Line4",
+        "Min": "Software",
+        "Text": "Trigger source",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "WhiteBalance": {
+        "Accessibility": "ReadWrite",
+        "Category": "Analog",
+        "Default": "Continuous",
+        "Max": "Continuous",
+        "Min": "Off",
+        "Text": "White balance",
+        "ToolTip": "",
+        "Visibility": "Guru"
+      }
+    },
+    "Text": "Camera",
+    "ToolTip": "Pointgrey camera settings"
+  },
+  "iris::hw::ti::LC4500Projector": {
+    "Categories": {
+      "Intensity":{
+        "Text":"Intensity",
+        "ToolTip":"LED intensities"
+      },
+      "Timing":{
+        "Text":"Timing controls",
+        "ToolTip":""
+      },
+      "Pattern":{
+        "Text":"Pattern controls",
+        "ToolTip":""
+      }
+    },
+    "Properties": {
+      "BlueLedPwr": {
+        "Accessibility": "ReadWrite",
+        "Category": "Intensity",
+        "Default": 10,
+        "Max": 100,
+        "Min": 0,
+        "Text": "Blue led pwr",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "DisplayMode": {
+        "Accessibility": "ReadWrite",
+        "Category": "Pattern",
+        "Default": "PatternPS4",
+        "Max": "PatternPS4H",
+        "Min": "Video",
+        "Text": "Display mode",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "ExposureTime": {
+        "Accessibility": "ReadWrite",
+        "Category": "Timing",
+        "Default": 2000,
+        "Max": 1000000,
+        "Min": 2000,
+        "Text": "Exposure time",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "GreenLedPwr": {
+        "Accessibility": "ReadWrite",
+        "Category": "Intensity",
+        "Default": 10,
+        "Max": 100,
+        "Min": 0,
+        "Text": "Green led pwr",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "RedLedPwr": {
+        "Accessibility": "ReadWrite",
+        "Category": "Intensity",
+        "Default": 10,
+        "Max": 100,
+        "Min": 0,
+        "Text": "Red led pwr",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      }
+    },
+    "Text": "Projector",
+    "ToolTip": "TI LC4500 projector settings"
+  },
+  "iris::mv::CalibPatternDetector": {
+    "Categories": {
+
+    },
+    "Properties": {
+      "BlurRadius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 7,
+        "Max": 15,
+        "Min": 0,
+        "Text": "Blur radius",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MaxDotArea": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 1000.0,
+        "Max": 10000.0,
+        "Min": 100.0,
+        "Text": "Max dot area",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MaxDotAreaMultiplier": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 6.0,
+        "Max": 10.0,
+        "Min": 1.0,
+        "Text": "Max dot area multiplier",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MinDotArea": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 50.0,
+        "Max": 500.0,
+        "Min": 0.0,
+        "Text": "Min dot area",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MinDotAreaMultiplier": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.6,
+        "Max": 1.0,
+        "Min": 0.1,
+        "Text": "Min dot area multiplier",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MinDotRatio": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.3,
+        "Max": 1.0,
+        "Min": 0.1,
+        "Text": "Min dot ratio",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MinKeypointCount": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 30,
+        "Max": 100,
+        "Min": 9,
+        "Text": "Min keypoint count",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MorphRadius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 1,
+        "Max": 10,
+        "Min": 0,
+        "Text": "Morph radius",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "PXMax": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 2,
+        "Max": 5,
+        "Min": 1,
+        "Text": "P x max",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "PXMin": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": -2,
+        "Max": -1,
+        "Min": -5,
+        "Text": "P x min",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "PYMax": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 2,
+        "Max": 5,
+        "Min": 1,
+        "Text": "P y max",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "PYMin": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": -2,
+        "Max": -1,
+        "Min": -5,
+        "Text": "P y min",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "PatternDim": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 20.0,
+        "Max": 100.0,
+        "Min": 1.0,
+        "Text": "Pattern dim",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "PatternType": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": "CircleGridWhiteOnGray",
+        "Max": "CircleGridGrayOnWhite",
+        "Min": "CircleGridWhiteOnGray",
+        "Text": "Pattern type",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "QuadraticFit": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": false,
+        "Text": "Quadratic fit",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "XMax": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 10,
+        "Max": 30,
+        "Min": 1,
+        "Text": "X max",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "XMin": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": -10,
+        "Max": -1,
+        "Min": -30,
+        "Text": "X min",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "YMax": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 7,
+        "Max": 30,
+        "Min": 1,
+        "Text": "Y max",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "YMin": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": -7,
+        "Max": -1,
+        "Min": -30,
+        "Text": "Y min",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      }
+    },
+    "Text": "Calib",
+    "ToolTip": "Calib pattern detector settings"
+  },
+  "iris::mv::Sl3dScanner": {
+    "Categories": null,
+    "Properties": {
+      "BlackWhiteSensitivity": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 15,
+        "Max": 100,
+        "Min": 5,
+        "Text": "Black white sensitivity",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "EnableDebug": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": false,
+        "Text": "Enable debug",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "EnableTexture": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": false,
+        "Text": "Enable texture",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "EncodingType": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": "BinaryXor0_PhaseShift4x4px",
+        "Max": "GrayXor0_PhaseShift4x8px",
+        "Min": "BinaryXor0_PhaseShift4x4px",
+        "Text": "Encoding type",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MaxFillRadius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 9,
+        "Max": 21,
+        "Min": 0,
+        "Text": "Max fill radius",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MaxGrayLevel": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 150,
+        "Max": 200,
+        "Min": 100,
+        "Text": "Max gray level",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MinPhaseConfident": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.5,
+        "Max": 0.95,
+        "Min": 0.5,
+        "Text": "Min phase confident",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MinSegmentSize": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 100,
+        "Max": 10000,
+        "Min": 0,
+        "Text": "Min segment size",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "PhaseBlurRadius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0,
+        "Max": 10,
+        "Min": 0,
+        "Text": "Phase blur radius",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "PointcloudBlurRadius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0,
+        "Max": 10,
+        "Min": 0,
+        "Text": "Pointcloud blur radius",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "ScannerType": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": "Horizontal",
+        "Max": "Vertical",
+        "Min": "Horizontal",
+        "Text": "Scanner type",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "Sensitivity": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 3,
+        "Max": 20,
+        "Min": 0,
+        "Text": "Sensitivity",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "TextureExposure": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 12000,
+        "Max": 100000,
+        "Min": 1000,
+        "Text": "Texture exposure",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      }
+    },
+    "Text": "Decoder",
+    "ToolTip": "3D decoder settings"
+  },
+  "iris::mv::pc::DzFilter": {
+    "Categories": null,
+    "Properties": {
+      "Dz": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.5,
+        "Max": 10.0,
+        "Min": 0.05,
+        "Text": "Dz",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      }
+    },
+    "Text": "Filter Dz",
+    "ToolTip": "Pointcloud dz filter settings"
+  },
+  "iris::mv::pc::ICPAligner2": {
+    "Categories": null,
+    "Properties": {
+      "AngledSampleRadius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 1.0,
+        "Max": 10.0,
+        "Min": 0.02,
+        "Text": "Angled sample radius",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "BatchSize": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 10,
+        "Max": 1000,
+        "Min": 1,
+        "Text": "Batch size",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "HighCutRate": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.05,
+        "Max": 0.9,
+        "Min": 0.0,
+        "Text": "High cut rate",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "LowCutRate": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.4,
+        "Max": 0.9,
+        "Min": 0.0,
+        "Text": "Low cut rate",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MaxDistance": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 50.0,
+        "Max": 1001.0,
+        "Min": 1.0,
+        "Text": "Max distance",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MaxIteration": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 10,
+        "Max": 1000,
+        "Min": 1,
+        "Text": "Max iteration",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MaxNormalAngle": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 45.0,
+        "Max": 90.0,
+        "Min": 1.0,
+        "Text": "Max normal angle",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MinError": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.15,
+        "Max": 2.0,
+        "Min": 0.0,
+        "Text": "Min error",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MinSampleCount": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 500,
+        "Max": 50000,
+        "Min": 100,
+        "Text": "Min sample count",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "SampleAngleThreshold": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 15.0,
+        "Max": 90.0,
+        "Min": 15.0,
+        "Text": "Sample angle threshold",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "SampleRadius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 3.0,
+        "Max": 20.0,
+        "Min": 0.05,
+        "Text": "Sample radius",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      }
+    },
+    "Text": "Aligner",
+    "ToolTip": "Pointcloud aligner settings"
+  },
+  "iris::mv::pc::OutlierFilter": {
+    "Categories": null,
+    "Properties": {
+      "MinNeighbourCount": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 4,
+        "Max": 100,
+        "Min": 1,
+        "Text": "Min neighbour count",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "Radius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 1.0,
+        "Max": 20.0,
+        "Min": 0.1,
+        "Text": "Radius",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      }
+    },
+    "Text": "Filter Outlier Removal",
+    "ToolTip": "Pointcloud outlier filter settings"
+  },
+  "iris::mv::pc::PlaneRemovalFilter": {
+    "Categories": null,
+    "Properties": {
+      "Tolerance": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 1.0,
+        "Max": 10.0,
+        "Min": 0.01,
+        "Text": "Tolerance",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      }
+    },
+    "Text": "Filter Plane Removal",
+    "ToolTip": "Pointcloud plane removal filter settings"
+  },
+  "iris::mv::pc::SmallClusterFilter": {
+    "Categories": null,
+    "Properties": {
+      "MinClusterSize": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 500,
+        "Max": 100000,
+        "Min": 1,
+        "Text": "Min cluster size",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "Radius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 1.0,
+        "Max": 20.0,
+        "Min": 0.1,
+        "Text": "Radius",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      }
+    },
+    "Text": "Filter Small Cluster Removal",
+    "ToolTip": "Pointcloud small cluster removal filter settings"
+  },
+  "iris::mv::pc::UniformSampler": {
+    "Categories": null,
+    "Properties": {
+      "Radius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.5,
+        "Max": 10.0,
+        "Min": 0.05,
+        "Text": "Radius",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      }
+    },
+    "Text": "Uniform Sampler",
+    "ToolTip": "Pointcloud uniform sampler settings"
+  },
+  "iris::mv::pc::ZRangeFilter": {
+    "Categories": null,
+    "Properties": {
+      "Zmax": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 700.0,
+        "Max": 3000.0,
+        "Min": 300.0,
+        "Text": "Zmax",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "Zmin": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 300.0,
+        "Max": 500.0,
+        "Min": 0.0,
+        "Text": "Zmin",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      }
+    },
+    "Text": "Filter Zrange",
+    "ToolTip": "Pointcloud zrange filter settings"
+  }
+}

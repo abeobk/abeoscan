@@ -151,6 +151,7 @@ c28f0f1a86673bddd5bf53ff49c57b17ae3e31bb  ./log4cpp.spinnaker.property
 28b4d73e308c633a7229791c26aa3823f88ac124  ./log4cpp_MD_VC140_v3_0.dll
 392e7225c22cdef1240370c4c29881550643428e  ./Log_MD_VC140_v3_0.dll
 ab063b5591c5d32e0afa65ff71f3618fa25457f3  ./MathParser_MD_VC140_v3_0.dll
+db71581258e05849db0be6d83cf75c6c6eb35037  ./meta.json
 7952bec4fa818a443c7199e3bf46c680cc0b0c38  ./msvcp140.dll
 cd057296e001f7588201e28d9ce94468d4d24702  ./MVGenICamConfig_v5_1.dll
 e0fff08d4948a578f13815708ec5e8d12fb7c342  ./NodeMapData_MD_VC140_v3_0.dll
