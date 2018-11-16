@@ -120,8 +120,8 @@ eaef51fb449c09e8994afe92a52c5c73a8f9b304  ./avformat-57.dll
 4227ca8ab9a6246b850f9053927f704cc6a84700  ./avutil-55.dll
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 85d23c4d0b5cc26b9d4ccaacf5f564435bce1685  ./cvlib.dll
-4e2379103ec47658996273b84a74c26480a47b5f  ./devices.dat
-57b2aad16c7f4ff34192607d6362f18bd241948e  ./fileinfo.dat
+d1a84192e6d644b30ebe943b2c3e61b02b186f0f  ./devices.dat
+871c2783c372aa0b1c18c2f037e78045cf7f9579  ./fileinfo.dat
 d9582e419c73e36d8acc507be4cb0f5ee25d6162  ./GCBase_MD_VC140_v3_0.dll
 be8d591ba51330c43a32180305dbb1cda5f4e6ea  ./GenApi_MD_VC140_v3_0.dll
 17063d31f07714e20fe35da84db349db0bc94bbc  ./GenTL_v140.dll
