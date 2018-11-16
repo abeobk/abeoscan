@@ -184,6 +184,10 @@ eb38a798aee5b8865e6db9c28f1635eecef50ac1  ./SFNC_GenTLDevice_Usb3_Version_1_0_0_
 990d393c23b079598788dc513d9904abe89b3a69  ./SFNC_GenTLInterface_GigE_Version_1_0_0_Schema_1_1.xml
 8bc1d83245b1ba18b5fdbe815ac7fb507257bc46  ./SFNC_GenTLInterface_Reference_Version_1_0_0_Schema_1_1.xml
 8f15dbe56043374f5c37434d4483143ce528e5b4  ./SFNC_GenTLInterface_Usb3_Version_1_0_0_Schema_1_1.xml
+611b6feb0010fb5553f1351d22ac33b81568828a  ./SharpGL.dll
+fd21e763ba9ca042a6b46faa076d585099373aba  ./SharpGL.SceneGraph.dll
+2cb8799907a462d58d7e05257f737ac057b41186  ./SharpGL.Serialization.dll
+d010885bf148b0029b8d60e16e6d203af2d66091  ./SharpGL.WinForms.dll
 9c1314bb791cf2e19fa7454ee38508c7c84b8fb7  ./SpinnakerGUISelector_WPF_v140.dll
 26101b66a56773517db03c80436b4fd9820c5b6b  ./SpinnakerGUI_WPF_v140.dll
 bd4198086280c2b93cdf9057cd90f56dec50300a  ./Spinnaker_v140.dll
