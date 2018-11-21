@@ -184,7 +184,6 @@ b2bfb7c3e7ce97bbdbe92d4e86c2b5d8ec365997  ./Qt5Gui.dll
 f59fe862d90cb560d5602e60b686bc8feff2e1bf  ./Qt5Network.dll
 ef21effa289e59146e0ed3cedf5cba15ae54b1de  ./Qt5Svg.dll
 7129d3f495513c4bb14e6e00075eeb8430d88fd3  ./Qt5Widgets.dll
-2be88ca4242c76e8253ac62474851065032d6833  ./settings.json
 6489a6c75c82ef90b53edfc85a7ac78b6dcc2153  ./SFNC_GenTLDataStream_GigE_Version_1_0_0_Schema_1_1.xml
 ad5a77ff94a81c91afe489db4ce5560c3ba865a6  ./SFNC_GenTLDataStream_Usb3_Version_1_0_0_Schema_1_1.xml
 e6f9c848b56128d4f210875a60f286b10fb86d45  ./SFNC_GenTLDevice_GigE_Version_1_0_0_Schema_1_1.xml
