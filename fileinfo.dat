@@ -1,4 +1,4 @@
-b40ed7080d1de9d6ed25dc78a6e62d751939fba0  ./AbeoScan_v140_x64.exe
+7e003e267e39eae1239dbb96b15e5b5036494f5b  ./AbeoScan_v140_x64.exe
 a34bbbb5bf2fb5d719d3e8fa99321982323e55f3  ./Abeosys.Controls.dll
 4a27b4650aedf1cc8dde61beb4568829f84879e2  ./Abeosys.Robotic.dll
 dac134a58d92ab9ac5577bb179281c5558b44bad  ./AbeosysLib.dll
@@ -121,7 +121,7 @@ eaef51fb449c09e8994afe92a52c5c73a8f9b304  ./avformat-57.dll
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 85d23c4d0b5cc26b9d4ccaacf5f564435bce1685  ./cvlib.dll
 7773704a7e5408d5cee239f56eec2e1f156fe338  ./devices.dat
-5375ac5344f3681863f4b65a3fb23fb4fa122ea3  ./fileinfo.dat
+c21b9dd6861486ab4867ca842dd9a12ca82844f6  ./fileinfo.dat
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
 8a770477f795c3090251abc32bc1f3cd837a3b89  ./ftcserco.dll
@@ -150,7 +150,7 @@ f855732063aab44ff5c80e5ba4fb917ec2cea3af  ./Input.xml
 ecf60c39b5e7ef55e11cb23acd31b5ca14d4fd41  ./iris_hw_ptgrey_v140_x64.dll
 cc1049ceab33f0753cd642f2a1f241712018b849  ./iris_hw_ti_v140_x64.dll
 2c04089a3d3f73afac99bac94dda808b02ca52da  ./iris_mv_v140_x64.dll
-0a5ae3180507fceb8d3b0ee4132eb6aa96698a83  ./iris_qt_v140_x64.dll
+c61c5033419f909bdddc8463a4e78e25c6caf533  ./iris_qt_v140_x64.dll
 7b7e951d38ce72426e8aaef9850a281a567cfaf6  ./iris_v140_x64.dll
 36fe528aa6bfdcf59dcc423e31d1e2f2a39ee9a9  ./Keywords.xml
 faa1e27eaaea8826c3e3dd93ef5e849e15877b51  ./libiomp5md.dll
