@@ -2,7 +2,7 @@ ea4940e3efbfbbf3279072729f4a3a1efd1c7e08  ./AbeoScan_v140_x64.exe
 f4cdb968a34b9aedb4c625763e0572a21303d551  ./Abeosys.Controls.dll
 6c42ca97a253c6ceef1876c9a86855b773a4d915  ./Abeosys.Robotic.dll
 bedf0b2cbf34ad619e9ce6049c4ac6a77904a66d  ./AbeosysCalibApp.exe
-da925a1465d185ce6bef4a807581a97fbf7e24d1  ./AbeosysLib.dll
+47b6ffff1d9389bff96eaef0beb728cb91230ced  ./AbeosysLib.dll
 02c8e473e21d5d2bf2cf09b70b51248b140ee16c  ./api-ms-win-base-util-l1-1-0.dll
 f024193b90fb92c9f9b6e2c527d39fc640828681  ./api-ms-win-core-com-l1-1-0.dll
 1558f0b25b624837736882d60ba5d3ab63104d3a  ./api-ms-win-core-comm-l1-1-0.dll
@@ -122,7 +122,7 @@ eaef51fb449c09e8994afe92a52c5c73a8f9b304  ./avformat-57.dll
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 85d23c4d0b5cc26b9d4ccaacf5f564435bce1685  ./cvlib.dll
 0f023c67a8ce1a6017c375a5d56ec72905a6c309  ./devices.dat
-514be80430d0877a69c69c33570fe6760f5c37ac  ./fileinfo.dat
+9b46bca5e69aa67a8bc41543dda2bb6b3c5dd979  ./fileinfo.dat
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
 8a770477f795c3090251abc32bc1f3cd837a3b89  ./ftcserco.dll
