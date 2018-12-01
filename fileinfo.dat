@@ -121,8 +121,8 @@ eaef51fb449c09e8994afe92a52c5c73a8f9b304  ./avformat-57.dll
 4227ca8ab9a6246b850f9053927f704cc6a84700  ./avutil-55.dll
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 85d23c4d0b5cc26b9d4ccaacf5f564435bce1685  ./cvlib.dll
-0f023c67a8ce1a6017c375a5d56ec72905a6c309  ./devices.dat
-bae3ad1409a9f538242858a42f991b14bb1f67ae  ./fileinfo.dat
+7dc86c6481befa67d0edcfc858ca855d81274f95  ./devices.dat
+a31651c1ca2bf1dfbafe7100fae9dabf387a3e24  ./fileinfo.dat
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
 8a770477f795c3090251abc32bc1f3cd837a3b89  ./ftcserco.dll
