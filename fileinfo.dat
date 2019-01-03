@@ -1,4 +1,4 @@
-a0c9790db8e0441820f578fa2795369936fd68c1  ./AbeoScan_v140_x64.exe
+7ce1f5bee940c18720e3d15a7dba78983cde7da4  ./AbeoScan_v140_x64.exe
 991c1408d03a51d5b830bd1144a221c83baf02bb  ./Abeosys.Controls.dll
 681934a65dba865a4fcbef316051381f4b177739  ./Abeosys.Robotic.dll
 493f4e82e730830cdb70523c26d182435370a902  ./AbeosysCalibApp.exe
@@ -122,7 +122,7 @@ eaef51fb449c09e8994afe92a52c5c73a8f9b304  ./avformat-57.dll
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 85d23c4d0b5cc26b9d4ccaacf5f564435bce1685  ./cvlib.dll
 e1fa60bd6103ebd9166c2966573a55386de4b842  ./devices.dat
-d78599189f674be92f50165bc1b44d8ca1f6d8c3  ./fileinfo.dat
+b72f880a14e913c50796e6f6e801cc4634398335  ./fileinfo.dat
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
 8a770477f795c3090251abc32bc1f3cd837a3b89  ./ftcserco.dll
@@ -147,12 +147,12 @@ f5be3b755e783ce0b2030cc44122fed2b284dbda  ./imageformats/qjpeg.dll
 8f4f34b1bbe4cd979978d4e40ab6d9e765f0c4e0  ./imageformats/qwbmp.dll
 9330da014b7f84e4b7c9a5cbbffcc34431323e0d  ./imageformats/qwebp.dll
 f855732063aab44ff5c80e5ba4fb917ec2cea3af  ./Input.xml
-55da32a8b87acabfba81ba7f5b1160b9107ac384  ./iris_hw_basler_v140_x64.dll
-08fbb60da6af15f6e9308e1860527c0ccd26c6ef  ./iris_hw_ptgrey_v140_x64.dll
-458712be03027236a22962a7cae3a6b26b48fd3e  ./iris_hw_ti_v140_x64.dll
-120ec3a78582b6e6352278b5a7583ab9f15be9cc  ./iris_mv_v140_x64.dll
-7a5ff0ff4fcafc5677f64eaf00f3d3f41a648c28  ./iris_qt_v140_x64.dll
-9129753615cdb2942a29569ededbba1de539f48f  ./iris_v140_x64.dll
+46cd2feaefca20a7ca642e853aae120ebab01462  ./iris_hw_basler_v140_x64.dll
+8ab757627a3522675056a5e3a5ae756e9c3b8d88  ./iris_hw_ptgrey_v140_x64.dll
+597660ff2adc406d0af7790e9b0b1fcae266d42b  ./iris_hw_ti_v140_x64.dll
+e30fe1c3cc0fc62b214c92cfd84ed55893f95769  ./iris_mv_v140_x64.dll
+d8e6924529396ea91c65f643b7cc09cf89a96c02  ./iris_qt_v140_x64.dll
+69e2dea9834a99f6723e245fc3137891ac3c511b  ./iris_v140_x64.dll
 36fe528aa6bfdcf59dcc423e31d1e2f2a39ee9a9  ./Keywords.xml
 faa1e27eaaea8826c3e3dd93ef5e849e15877b51  ./libiomp5md.dll
 eca7ab97d5aedcbf92f99003acbe894374e26d0a  ./log4cpp.gentl.property
