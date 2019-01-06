@@ -9,13 +9,13 @@
     "Properties": {
       "Depth": {
         "Accessibility": "ReadWrite",
-        "Category": "Solver",
+        "Category": "",
         "Default": 8,
         "Max": 12,
         "Min": 5,
         "Text": "Depth",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Guru"
       },
       "IsoDivide": {
         "Accessibility": "ReadWrite",
@@ -35,7 +35,7 @@
         "Min": 1.0,
         "Text": "Sample per node",
         "ToolTip": "",
-        "Visibility": "Guru"
+        "Visibility": "Hide"
       },
       "Scale": {
         "Accessibility": "ReadWrite",
@@ -45,7 +45,7 @@
         "Min": 1.0,
         "Text": "Scale",
         "ToolTip": "",
-        "Visibility": "Guru"
+        "Visibility": "Hide"
       },
       "SolverDivide": {
         "Accessibility": "ReadWrite",
@@ -79,29 +79,29 @@
     "Properties": {
       "BufferCount": {
         "Accessibility": "ReadOnly",
-        "Category": "Acquisition",
+        "Category": "",
         "Default": 12,
         "Max": 48,
         "Min": 1,
         "Text": "Buffer count",
         "ToolTip": "",
-        "Visibility": "Guru"
+        "Visibility": "Hide"
       },
       "EnableGamma": {
         "Accessibility": "ReadWrite",
-        "Category": "Analog",
+        "Category": "",
         "Default": true,
         "Text": "Enable gamma",
         "ToolTip": "",
-        "Visibility": "Guru"
+        "Visibility": "Hide"
       },
       "EnableTrigger": {
         "Accessibility": "ReadOnly",
-        "Category": "Acquisition",
+        "Category": "",
         "Default": true,
         "Text": "Enable trigger",
         "ToolTip": "",
-        "Visibility": "Guru"
+        "Visibility": "Hide"
       },
       "ExposureTime": {
         "Accessibility": "ReadWrite",
@@ -143,17 +143,17 @@
       },
       "PixelFormat": {
         "Accessibility": "ReadOnly",
-        "Category": "ImageFormat",
+        "Category": "",
         "Default": "Mono8",
         "Max": "BayerGB8",
         "Min": "Mono8",
         "Text": "Pixel format",
         "ToolTip": "",
-        "Visibility": "Guru"
+        "Visibility": "Hide"
       },
       "ReverseX": {
         "Accessibility": "ReadOnly",
-        "Category": "ImageFormat",
+        "Category": "",
         "Default": false,
         "Text": "Reverse x",
         "ToolTip": "",
@@ -169,7 +169,7 @@
       },
       "TriggerEdge": {
         "Accessibility": "ReadOnly",
-        "Category": "Acquisition",
+        "Category": "",
         "Default": "Rising",
         "Max": "Falling",
         "Min": "Rising",
@@ -179,7 +179,7 @@
       },
       "TriggerSource": {
         "Accessibility": "ReadOnly",
-        "Category": "Acquisition",
+        "Category": "",
         "Default": "Software",
         "Max": "Line4",
         "Min": "Software",
@@ -229,7 +229,7 @@
       },
       "DisplayMode": {
         "Accessibility": "ReadWrite",
-        "Category": "Pattern",
+        "Category": "",
         "Default": "PatternPS4",
         "Max": "PatternPS4H",
         "Min": "Video",
@@ -284,7 +284,7 @@
         "Min": 0,
         "Text": "Blur radius",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MaxDotArea": {
         "Accessibility": "ReadWrite",
@@ -294,7 +294,7 @@
         "Min": 100.0,
         "Text": "Max dot area",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MaxDotAreaMultiplier": {
         "Accessibility": "ReadWrite",
@@ -304,7 +304,7 @@
         "Min": 1.0,
         "Text": "Max dot area multiplier",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MinDotArea": {
         "Accessibility": "ReadWrite",
@@ -314,7 +314,7 @@
         "Min": 0.0,
         "Text": "Min dot area",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "hide"
       },
       "MinDotAreaMultiplier": {
         "Accessibility": "ReadWrite",
@@ -324,7 +324,7 @@
         "Min": 0.1,
         "Text": "Min dot area multiplier",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MinDotRatio": {
         "Accessibility": "ReadWrite",
@@ -334,7 +334,7 @@
         "Min": 0.1,
         "Text": "Min dot ratio",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MinKeypointCount": {
         "Accessibility": "ReadWrite",
@@ -344,7 +344,7 @@
         "Min": 9,
         "Text": "Min keypoint count",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MorphRadius": {
         "Accessibility": "ReadWrite",
@@ -354,7 +354,7 @@
         "Min": 0,
         "Text": "Morph radius",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "PXMax": {
         "Accessibility": "ReadWrite",
@@ -364,7 +364,7 @@
         "Min": 1,
         "Text": "P x max",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "PXMin": {
         "Accessibility": "ReadWrite",
@@ -374,7 +374,7 @@
         "Min": -5,
         "Text": "P x min",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "PYMax": {
         "Accessibility": "ReadWrite",
@@ -384,7 +384,7 @@
         "Min": 1,
         "Text": "P y max",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "PYMin": {
         "Accessibility": "ReadWrite",
@@ -394,7 +394,7 @@
         "Min": -5,
         "Text": "P y min",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "PatternDim": {
         "Accessibility": "ReadWrite",
@@ -422,7 +422,7 @@
         "Default": false,
         "Text": "Quadratic fit",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "XMax": {
         "Accessibility": "ReadWrite",
@@ -432,7 +432,7 @@
         "Min": 1,
         "Text": "X max",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "XMin": {
         "Accessibility": "ReadWrite",
@@ -442,7 +442,7 @@
         "Min": -30,
         "Text": "X min",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "YMax": {
         "Accessibility": "ReadWrite",
@@ -452,7 +452,7 @@
         "Min": 1,
         "Text": "Y max",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "YMin": {
         "Accessibility": "ReadWrite",
@@ -462,7 +462,7 @@
         "Min": -30,
         "Text": "Y min",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       }
     },
     "Text": "Calib",
@@ -479,7 +479,7 @@
         "Min": 5,
         "Text": "Black white sensitivity",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "EnableDebug": {
         "Accessibility": "ReadWrite",
@@ -487,7 +487,7 @@
         "Default": false,
         "Text": "Enable debug",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "EnableTexture": {
         "Accessibility": "ReadWrite",
@@ -505,7 +505,7 @@
         "Min": "BinaryXor0_PhaseShift4x4px",
         "Text": "Encoding type",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MaxFillRadius": {
         "Accessibility": "ReadWrite",
@@ -515,7 +515,7 @@
         "Min": 0,
         "Text": "Max fill radius",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MaxGrayLevel": {
         "Accessibility": "ReadWrite",
@@ -525,7 +525,7 @@
         "Min": 100,
         "Text": "Max gray level",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MinPhaseConfident": {
         "Accessibility": "ReadWrite",
@@ -535,7 +535,7 @@
         "Min": 0.5,
         "Text": "Min phase confident",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MinSegmentSize": {
         "Accessibility": "ReadWrite",
@@ -545,7 +545,7 @@
         "Min": 0,
         "Text": "Min segment size",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "PhaseBlurRadius": {
         "Accessibility": "ReadWrite",
@@ -555,7 +555,7 @@
         "Min": 0,
         "Text": "Phase blur radius",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "PointcloudBlurRadius": {
         "Accessibility": "ReadWrite",
@@ -565,7 +565,7 @@
         "Min": 0,
         "Text": "Pointcloud blur radius",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "ScannerType": {
         "Accessibility": "ReadWrite",
@@ -575,7 +575,7 @@
         "Min": "Horizontal",
         "Text": "Scanner type",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "Sensitivity": {
         "Accessibility": "ReadWrite",
@@ -585,7 +585,7 @@
         "Min": 0,
         "Text": "Sensitivity",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Expert"
       },
       "TextureExposure": {
         "Accessibility": "ReadWrite",
@@ -621,16 +621,6 @@
   "iris::mv::pc::ICPAligner2": {
     "Categories": null,
     "Properties": {
-      "AngledSampleRadius": {
-        "Accessibility": "ReadWrite",
-        "Category": "",
-        "Default": 1.0,
-        "Max": 10.0,
-        "Min": 0.02,
-        "Text": "Angled sample radius",
-        "ToolTip": "",
-        "Visibility": "Beginner"
-      },
       "BatchSize": {
         "Accessibility": "ReadWrite",
         "Category": "",
@@ -639,7 +629,7 @@
         "Min": 1,
         "Text": "Batch size",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "HighCutRate": {
         "Accessibility": "ReadWrite",
@@ -649,7 +639,7 @@
         "Min": 0.0,
         "Text": "High cut rate",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "LowCutRate": {
         "Accessibility": "ReadWrite",
@@ -659,7 +649,7 @@
         "Min": 0.0,
         "Text": "Low cut rate",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MaxDistance": {
         "Accessibility": "ReadWrite",
@@ -669,7 +659,7 @@
         "Min": 1.0,
         "Text": "Max distance",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MaxIteration": {
         "Accessibility": "ReadWrite",
@@ -689,7 +679,7 @@
         "Min": 1.0,
         "Text": "Max normal angle",
         "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "MinError": {
         "Accessibility": "ReadWrite",
@@ -709,17 +699,7 @@
         "Min": 100,
         "Text": "Min sample count",
         "ToolTip": "",
-        "Visibility": "Beginner"
-      },
-      "SampleAngleThreshold": {
-        "Accessibility": "ReadWrite",
-        "Category": "",
-        "Default": 15.0,
-        "Max": 90.0,
-        "Min": 15.0,
-        "Text": "Sample angle threshold",
-        "ToolTip": "",
-        "Visibility": "Beginner"
+        "Visibility": "Hide"
       },
       "SampleRadius": {
         "Accessibility": "ReadWrite",
@@ -728,6 +708,76 @@
         "Max": 20.0,
         "Min": 0.05,
         "Text": "Sample radius",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "SampleSkipRadius": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 1.0,
+        "Max": 20.0,
+        "Min": 0.05,
+        "Text": "Sample skip radius",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "SampleThreshold": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.98,
+        "Max": 1.0,
+        "Min": 0.5,
+        "Text": "Sample threshold",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "SampleRandomRatio": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.03,
+        "Max": 1.0,
+        "Min": 0.0,
+        "Text": "Sample random ratio",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "MinErrorDiff": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 0.02,
+        "Max": 0.5,
+        "Min": 0.0,
+        "Text": "Min error difference",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "MaxUnchangeCount": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 5,
+        "Max": 5,
+        "Min": 20,
+        "Text": "Min error difference",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "ThreadCount": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 5,
+        "Max": 5,
+        "Min": 20,
+        "Text": "Thread count",
+        "ToolTip": "",
+        "Visibility": "Beginner"
+      },
+      "MaxSampleCount": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": 1000,
+        "Max": 100000,
+        "Min": 200,
+        "Text": "Max sample count",
         "ToolTip": "",
         "Visibility": "Beginner"
       }
