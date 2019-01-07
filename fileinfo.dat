@@ -1,4 +1,4 @@
-c09474880b1f0dd9df4f1ca4a42317efd80348b9  ./AbeoScan_v140_x64.exe
+274d79bc3333c6cb5eb9a16563585fa7be2c900e  ./AbeoScan_v140_x64.exe
 f580602fbd28992dfbc3aeb7f1a41e7ba25ddd34  ./Abeosys.Controls.dll
 f05adf050ca603383fa225846b6f901cea20f9aa  ./Abeosys.Robotic.dll
 493f4e82e730830cdb70523c26d182435370a902  ./AbeosysCalibApp.exe
@@ -12,8 +12,8 @@ eaef51fb449c09e8994afe92a52c5c73a8f9b304  ./avformat-57.dll
 e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
-23def05ee2ec71125a4afc9f8ba3e43f0be3eecf  ./devices.dat
-5920f3f663a20f63a7846e0ede99fb138ebdb094  ./fileinfo.dat
+e9c13c77978d89ffa460241862e9afe777b4cac6  ./devices.dat
+0c69d9de7e85470d7f0f7014e8ca0d44641e9690  ./fileinfo.dat
 16cd467e1aa750e2000443ac39d032dc75bdde30  ./FirmwareUpdate_MD_VC120_v3_0_Basler_pylon_v5_0.dll
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
@@ -42,12 +42,12 @@ f5be3b755e783ce0b2030cc44122fed2b284dbda  ./imageformats/qjpeg.dll
 8f4f34b1bbe4cd979978d4e40ab6d9e765f0c4e0  ./imageformats/qwbmp.dll
 9330da014b7f84e4b7c9a5cbbffcc34431323e0d  ./imageformats/qwebp.dll
 f855732063aab44ff5c80e5ba4fb917ec2cea3af  ./Input.xml
-c4205bf4d3c8a85125951f6f7b5bd195a534de50  ./iris_hw_basler_v140_x64.dll
-e910062c3210cfbc715c77bd55bc92c3bb1a1a72  ./iris_hw_ptgrey_v140_x64.dll
-93b40d70e7b6407d9de950296d045f57bdbbfea7  ./iris_hw_ti_v140_x64.dll
-fdee30dcac0ecf8d6d197db8ae298488ba68c323  ./iris_mv_v140_x64.dll
-6d1748ca9ccf67bbe9457883ae8118835924132d  ./iris_qt_v140_x64.dll
-d74a3e314c06f5cbc4128efadd48c63edc6b0657  ./iris_v140_x64.dll
+0a5b6c56e79edb449d9ae1743be5dc4fd9a5a54c  ./iris_hw_basler_v140_x64.dll
+c29e2cf4d8592346c713ef6c2bef2d4d898583f8  ./iris_hw_ptgrey_v140_x64.dll
+7f015b1e740f7f67b4b51d099fbe2d53ae360e41  ./iris_hw_ti_v140_x64.dll
+0c288dee3b4a5931d0d80db751855d1813c3a1f9  ./iris_mv_v140_x64.dll
+6c27764743c82dc4bccaadb34605babbf7482ba3  ./iris_qt_v140_x64.dll
+258dda9b8bfa30465c7c4ce337704cf91bfe3bbc  ./iris_v140_x64.dll
 36fe528aa6bfdcf59dcc423e31d1e2f2a39ee9a9  ./Keywords.xml
 faa1e27eaaea8826c3e3dd93ef5e849e15877b51  ./libiomp5md.dll
 eca7ab97d5aedcbf92f99003acbe894374e26d0a  ./log4cpp.gentl.property
