@@ -1,4 +1,4 @@
-58a43a3c7990323edc7927aba44eea98a63a371d  ./AbeoScan_v140_x64.exe
+3dc6f281f284865aa2f52dcb30631a6ebe6973f7  ./AbeoScan_v140_x64.exe
 ce3e043e5fcb47c29a8f5e92b089ee43b0efaebe  ./Abeosys.Controls.dll
 0a6c01a1e079f734e4fd600cd569a5b5ace73893  ./Abeosys.Robotic.dll
 493f4e82e730830cdb70523c26d182435370a902  ./AbeosysCalibApp.exe
@@ -13,7 +13,7 @@ e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
 e9c13c77978d89ffa460241862e9afe777b4cac6  ./devices.dat
-07fbc945d8b7687511897f737291a1bc65a707c0  ./fileinfo.dat
+e77e90a1a7b38b8a081e901227243e5909949447  ./fileinfo.dat
 16cd467e1aa750e2000443ac39d032dc75bdde30  ./FirmwareUpdate_MD_VC120_v3_0_Basler_pylon_v5_0.dll
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
@@ -45,9 +45,9 @@ f855732063aab44ff5c80e5ba4fb917ec2cea3af  ./Input.xml
 7c5210aa492f0521f72a6df78181737865fc4f9b  ./iris_hw_basler_v140_x64.dll
 16eaa0545ec24bfca952307e948a5201425f7439  ./iris_hw_ptgrey_v140_x64.dll
 671ec670d2a8e784f27e1fd9cd8d564ff1e689fc  ./iris_hw_ti_v140_x64.dll
-ab8d33b7e1730ff9dad1f220f328a565eb79571c  ./iris_mv_v140_x64.dll
-b323ad4ad04e1a46b9653798800eed9bdf89610c  ./iris_qt_v140_x64.dll
-a3aafea8bbcd370ca6fdfa9c1a32344757a57410  ./iris_v140_x64.dll
+c9d9a55a1b646cb05ae06846df3773e8246ffdbb  ./iris_mv_v140_x64.dll
+1ad3a00a63d6515dab93f72da5940c43b3656b0a  ./iris_qt_v140_x64.dll
+cf8af66083ab75ec8459c9cc8b3f9b1eec1b69e6  ./iris_v140_x64.dll
 36fe528aa6bfdcf59dcc423e31d1e2f2a39ee9a9  ./Keywords.xml
 faa1e27eaaea8826c3e3dd93ef5e849e15877b51  ./libiomp5md.dll
 eca7ab97d5aedcbf92f99003acbe894374e26d0a  ./log4cpp.gentl.property
