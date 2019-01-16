@@ -12,8 +12,8 @@ eaef51fb449c09e8994afe92a52c5c73a8f9b304  ./avformat-57.dll
 e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
-e9c13c77978d89ffa460241862e9afe777b4cac6  ./devices.dat
-e4321b0c8e42b8c4cd15c81b004315729a3fbe28  ./fileinfo.dat
+9a45c2c6c1d0165782771816e56d7f2aea29d079  ./devices.dat
+c84eb44db0cd7e5609fd7746a2e91a1f2f10e8a4  ./fileinfo.dat
 16cd467e1aa750e2000443ac39d032dc75bdde30  ./FirmwareUpdate_MD_VC120_v3_0_Basler_pylon_v5_0.dll
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
