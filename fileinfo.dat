@@ -1,8 +1,8 @@
-91faa4cb56c02b1e48a6df6990a5a0a156485773  ./AbeoScan_v140_x64.exe
-ce3e043e5fcb47c29a8f5e92b089ee43b0efaebe  ./Abeosys.Controls.dll
-0a6c01a1e079f734e4fd600cd569a5b5ace73893  ./Abeosys.Robotic.dll
+9977497d03f63676bf42654c17cf380a7b71af01  ./AbeoScan_v140_x64.exe
+8b2c3da9201c3359f646f319f16cd6ebba6dcdab  ./Abeosys.Controls.dll
+1b7e25c9417b78eb9000cd5c9ae0d23e5bd45cb9  ./Abeosys.Robotic.dll
 493f4e82e730830cdb70523c26d182435370a902  ./AbeosysCalibApp.exe
-2369c29ca7b75ecbee26b8578569faa1b3458691  ./AbeosysLib.dll
+1376f91b989ac0dd6a4558c22353a5769bc20038  ./AbeosysLib.dll
 3cdbac779b7246195d16fcb51f566e08ef6ee5b5  ./avcodec-57.dll
 813f68025be310afc22fe9fcf2bae45ce1fab875  ./avdevice-57.dll
 cb19f40b6d019f52401f5532df1e579540ecff2e  ./avfilter-6.dll
@@ -13,7 +13,7 @@ e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
 9a45c2c6c1d0165782771816e56d7f2aea29d079  ./devices.dat
-5fcef23003e7e423c63f8d8c8a13d4b94b8d55a0  ./fileinfo.dat
+4f6c34a1d6fab665bb4c68540a3739941835479a  ./fileinfo.dat
 16cd467e1aa750e2000443ac39d032dc75bdde30  ./FirmwareUpdate_MD_VC120_v3_0_Basler_pylon_v5_0.dll
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
@@ -45,8 +45,8 @@ f855732063aab44ff5c80e5ba4fb917ec2cea3af  ./Input.xml
 18c57b29e35167dee86bc3b29dc4e705d277ed6a  ./iris_hw_basler_v140_x64.dll
 fbb25eb75743541581e1f2dfe682e5396251ef66  ./iris_hw_ptgrey_v140_x64.dll
 5c64a202284d90903387a710c83fe6ae24a7200d  ./iris_hw_ti_v140_x64.dll
-add3e3ddd20c4dd7322fbc58d2421cea1f7a8133  ./iris_mv_v140_x64.dll
-e756cbee45e7a49f4a4b7734aa834ebd2b1b74dc  ./iris_qt_v140_x64.dll
+9f8f3f98fac8f49bc74ab82c2891a658fff6e395  ./iris_mv_v140_x64.dll
+6454be5fb7b671846b2a18aac734f513c337215d  ./iris_qt_v140_x64.dll
 a90df295060525cd64bd880a7e2d1c1be498fbe1  ./iris_v140_x64.dll
 36fe528aa6bfdcf59dcc423e31d1e2f2a39ee9a9  ./Keywords.xml
 faa1e27eaaea8826c3e3dd93ef5e849e15877b51  ./libiomp5md.dll
