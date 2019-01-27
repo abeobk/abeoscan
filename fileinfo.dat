@@ -1,8 +1,8 @@
-2c158281a23fdf3eaf896f5ba7b28452a80c32ef  ./AbeoScan_v140_x64.exe
-8b2c3da9201c3359f646f319f16cd6ebba6dcdab  ./Abeosys.Controls.dll
-1b7e25c9417b78eb9000cd5c9ae0d23e5bd45cb9  ./Abeosys.Robotic.dll
-493f4e82e730830cdb70523c26d182435370a902  ./AbeosysCalibApp.exe
-1376f91b989ac0dd6a4558c22353a5769bc20038  ./AbeosysLib.dll
+a58084edf49531e9a1c9d8642a4d7237f86d77bf  ./AbeoScan_v140_x64.exe
+86a1560813d7e963de6de993bc2b5b83cdbdc396  ./Abeosys.Controls.dll
+7245a109207f0fe123598601ac2a99f64ab27281  ./Abeosys.Robotic.dll
+a2fa3bda582188c02025527c75977fc336b401bb  ./AbeosysCalibApp.exe
+0dbafba2f2ef0d39f197810b13d358378a317d2f  ./AbeosysLib.dll
 3cdbac779b7246195d16fcb51f566e08ef6ee5b5  ./avcodec-57.dll
 813f68025be310afc22fe9fcf2bae45ce1fab875  ./avdevice-57.dll
 cb19f40b6d019f52401f5532df1e579540ecff2e  ./avfilter-6.dll
@@ -13,7 +13,7 @@ e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
 9a45c2c6c1d0165782771816e56d7f2aea29d079  ./devices.dat
-198599ad28c27555edd8aaca3059fa0c4ead46c3  ./fileinfo.dat
+ccd7de93936187651a23b31d46378a76e72d2e72  ./fileinfo.dat
 16cd467e1aa750e2000443ac39d032dc75bdde30  ./FirmwareUpdate_MD_VC120_v3_0_Basler_pylon_v5_0.dll
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
@@ -42,7 +42,7 @@ f5be3b755e783ce0b2030cc44122fed2b284dbda  ./imageformats/qjpeg.dll
 8f4f34b1bbe4cd979978d4e40ab6d9e765f0c4e0  ./imageformats/qwbmp.dll
 9330da014b7f84e4b7c9a5cbbffcc34431323e0d  ./imageformats/qwebp.dll
 f855732063aab44ff5c80e5ba4fb917ec2cea3af  ./Input.xml
-eca1830a0de7a49a7f87816f4af485e6b66c8639  ./iris_hw_basler_v140_x64.dll
+fd6ab4610335151bc133623a8469568e960ff679  ./iris_hw_basler_v140_x64.dll
 fbb25eb75743541581e1f2dfe682e5396251ef66  ./iris_hw_ptgrey_v140_x64.dll
 5c64a202284d90903387a710c83fe6ae24a7200d  ./iris_hw_ti_v140_x64.dll
 9f8f3f98fac8f49bc74ab82c2891a658fff6e395  ./iris_mv_v140_x64.dll
