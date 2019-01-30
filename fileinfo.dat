@@ -2,7 +2,7 @@ ed908a73bed9177813ec9c80f1f60bbf1ba08d65  ./AbeoScan_v140_x64.exe
 7b3672ca9f6fdf73e44d196d5701397329e5953a  ./Abeosys.Controls.dll
 84df2c5d0fd6ca50532977bf3661edcc37e5c47c  ./Abeosys.Robotic.dll
 a2fa3bda582188c02025527c75977fc336b401bb  ./AbeosysCalibApp.exe
-0b068037a6c879aaeb722552641adc05b15527f6  ./AbeosysLib.dll
+c9409d75293ddae081aa66f7ef3ce33cdcac0acb  ./AbeosysLib.dll
 3cdbac779b7246195d16fcb51f566e08ef6ee5b5  ./avcodec-57.dll
 813f68025be310afc22fe9fcf2bae45ce1fab875  ./avdevice-57.dll
 cb19f40b6d019f52401f5532df1e579540ecff2e  ./avfilter-6.dll
@@ -13,7 +13,7 @@ e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
 9a45c2c6c1d0165782771816e56d7f2aea29d079  ./devices.dat
-9cbe1f17474ff0aa7fcdc66b1ea9b0f4da5557a8  ./fileinfo.dat
+97941eb4c704e905bfe0ce0dab5845320cfccb91  ./fileinfo.dat
 16cd467e1aa750e2000443ac39d032dc75bdde30  ./FirmwareUpdate_MD_VC120_v3_0_Basler_pylon_v5_0.dll
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
