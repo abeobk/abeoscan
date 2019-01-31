@@ -1,8 +1,8 @@
 e7fe8d80f15479ce1ee4cd79d38951adc6079766  ./AbeoScan_v140_x64.exe
-cd3058ee5c0248edbdda6cd2e278c61ab3cde926  ./Abeosys.Controls.dll
-a7fe00e69ba116f178d49043082a9204201b9e1e  ./Abeosys.Robotic.dll
+7ab5ea104d70973d85243580c954e27e7cee7076  ./Abeosys.Controls.dll
+45418d4a69c81ea7cff7f606d2997e2fbbc56dd8  ./Abeosys.Robotic.dll
 333d73b77349fc6b9cd11bf6c79d20a8efcaebb8  ./AbeosysCalibApp.exe
-e94c72d6cb69491428feac21bbf8ac1b090d7146  ./AbeosysLib.dll
+41e9e9acd2c87ca33a3b901e81b692553da431bb  ./AbeosysLib.dll
 3cdbac779b7246195d16fcb51f566e08ef6ee5b5  ./avcodec-57.dll
 813f68025be310afc22fe9fcf2bae45ce1fab875  ./avdevice-57.dll
 cb19f40b6d019f52401f5532df1e579540ecff2e  ./avfilter-6.dll
@@ -13,7 +13,7 @@ e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
 9a45c2c6c1d0165782771816e56d7f2aea29d079  ./devices.dat
-a9e8ba0f4ae5dc0ffb014770d99cf35078a64d81  ./fileinfo.dat
+5673a8317534462f4c2f9844127cf3dde7133a78  ./fileinfo.dat
 16cd467e1aa750e2000443ac39d032dc75bdde30  ./FirmwareUpdate_MD_VC120_v3_0_Basler_pylon_v5_0.dll
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
@@ -102,8 +102,8 @@ eb38a798aee5b8865e6db9c28f1635eecef50ac1  ./SFNC_GenTLDevice_Usb3_Version_1_0_0_
 990d393c23b079598788dc513d9904abe89b3a69  ./SFNC_GenTLInterface_GigE_Version_1_0_0_Schema_1_1.xml
 8bc1d83245b1ba18b5fdbe815ac7fb507257bc46  ./SFNC_GenTLInterface_Reference_Version_1_0_0_Schema_1_1.xml
 8f15dbe56043374f5c37434d4483143ce528e5b4  ./SFNC_GenTLInterface_Usb3_Version_1_0_0_Schema_1_1.xml
-098d06a86f4cc90e94c371c484e824eed64a5fcb  ./SharpGL.dll
-bb09dd09471fc591d631f6d6a4f90eebb5d3cf59  ./SharpGL.SceneGraph.dll
+3574b5aaaf6a50aae2b99986f7fdd291fa184a3d  ./SharpGL.dll
+efa6ef87b1acd5eece0ff26d63e2fe03f6f14fc5  ./SharpGL.SceneGraph.dll
 2cb8799907a462d58d7e05257f737ac057b41186  ./SharpGL.Serialization.dll
 d010885bf148b0029b8d60e16e6d203af2d66091  ./SharpGL.WinForms.dll
 9c1314bb791cf2e19fa7454ee38508c7c84b8fb7  ./SpinnakerGUISelector_WPF_v140.dll
