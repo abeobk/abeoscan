@@ -19,7 +19,6 @@ f1e18c5604cf65fb132e2bd6c06a130d44704471  ./firmware/as4500_fw_upgrade.exe
 b5ab28f63faafd05f00454512d03576c3ffc746a  ./firmware/FlashDeviceParameters.txt
 7082bdc17358abdbbff836ebfa16f51f96afddf4  ./firmware/linux/AS4500_V3.0_dev.bin
 b5ab28f63faafd05f00454512d03576c3ffc746a  ./firmware/linux/FlashDeviceParameters.txt
-91b177422c6f06990c6c6ac58f823b280f53bc20  ./firmware/linux/linux.zip
 16cd467e1aa750e2000443ac39d032dc75bdde30  ./FirmwareUpdate_MD_VC120_v3_0_Basler_pylon_v5_0.dll
 68a08633dfdb2faffa7db82507752f1620556efd  ./ftbusui.dll
 e6d02ef125b68b4d628d91cac6eb187d8ba91cc7  ./FTChipID.dll
@@ -51,7 +50,7 @@ f855732063aab44ff5c80e5ba4fb917ec2cea3af  ./Input.xml
 b5c3b96e4b61115f90521e4d31caac70e70cbfd3  ./iris_hw_basler_v140_x64.dll
 18006172fdcd742a06a16a31e6deb08ddab7ae72  ./iris_hw_ptgrey_v140_x64.dll
 763a33667bbd14c972c63f215055d16314e4543c  ./iris_hw_ti_v140_x64.dll
-a280cf3041ab880fc6ec3a99d466bdbe8a7a2722  ./iris_mv_v140_x64.dll
+aa5d187bd4e4e268c952d75221dcf791dc001f49  ./iris_mv_v140_x64.dll
 29a6eb8c597c6c405b74baa69241de5d943098d8  ./iris_qt_v140_x64.dll
 c4085c6a5bd6bee2a15154799ea63d31f3c88648  ./iris_v140_x64.dll
 36fe528aa6bfdcf59dcc423e31d1e2f2a39ee9a9  ./Keywords.xml
