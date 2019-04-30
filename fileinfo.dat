@@ -1,4 +1,4 @@
-b9198d9ccdca2018269e50083c38bb18fae6faf2  ./AbeoScan_v140_x64.exe
+cdd988c355734bb785a9592f5517f42bcbed1b65  ./AbeoScan_v140_x64.exe
 916a65c3eb8d92137e39bfd434284a2a7ac92a48  ./Abeosys.Controls.dll
 9dc7a527b41975e2d305684b1c49840f98d392d3  ./Abeosys.Robotic.dll
 30f5e3718a7bf4df1e7a6c988401576e344962b2  ./AbeosysCalibApp.exe
@@ -13,7 +13,7 @@ e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
 9a45c2c6c1d0165782771816e56d7f2aea29d079  ./devices.dat
-8f6b980035ae6235cf19f46a3876efe4b6144200  ./fileinfo.dat
+14a4d2620a8c1fb5a6b246a0e09ad98e42dd5854  ./fileinfo.dat
 cd88866845ea19c5eacdb543e0c17e4b5a336049  ./firmware/as4500_fw_tool.exe
 f1e18c5604cf65fb132e2bd6c06a130d44704471  ./firmware/as4500_fw_upgrade.exe
 7082bdc17358abdbbff836ebfa16f51f96afddf4  ./firmware/AS4500_V3.0_dev.bin
@@ -51,8 +51,8 @@ f855732063aab44ff5c80e5ba4fb917ec2cea3af  ./Input.xml
 49be3bef18974121f7cf4a5c5286b611832030c4  ./iris_hw_basler_v140_x64.dll
 18006172fdcd742a06a16a31e6deb08ddab7ae72  ./iris_hw_ptgrey_v140_x64.dll
 763a33667bbd14c972c63f215055d16314e4543c  ./iris_hw_ti_v140_x64.dll
-db593c8265e3171f9ec41f23e911b14c63af5f03  ./iris_mv_v140_x64.dll
-ec63762a5161476a0ae520b37d22f9173562b5a8  ./iris_qt_v140_x64.dll
+a8426a5071f7f6a898a559bfaf8c6d1ed67a5aac  ./iris_mv_v140_x64.dll
+28d430aae06aacf21fd7d87d11132313cc58ebd7  ./iris_qt_v140_x64.dll
 f439696c541d7bce30ed5b8e58d2fee25b47381d  ./iris_v140_x64.dll
 36fe528aa6bfdcf59dcc423e31d1e2f2a39ee9a9  ./Keywords.xml
 faa1e27eaaea8826c3e3dd93ef5e849e15877b51  ./libiomp5md.dll
@@ -97,6 +97,7 @@ e675f3cc2ba79afdb252090d515b7ec2585a7fe1  ./PylonUsb_MD_VC120_V5_0_TL.dll
 9aad9ed4aa4214734ddd42d35747f991eef92e79  ./Qt5Core.dll
 b2bfb7c3e7ce97bbdbe92d4e86c2b5d8ec365997  ./Qt5Gui.dll
 f59fe862d90cb560d5602e60b686bc8feff2e1bf  ./Qt5Network.dll
+1695c46ee014b6ee1e448ef3e79e0ae45cc6e409  ./Qt5OpenGL.dll
 ef21effa289e59146e0ed3cedf5cba15ae54b1de  ./Qt5Svg.dll
 7129d3f495513c4bb14e6e00075eeb8430d88fd3  ./Qt5Widgets.dll
 2be88ca4242c76e8253ac62474851065032d6833  ./settings.json
