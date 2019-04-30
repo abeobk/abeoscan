@@ -1,4 +1,4 @@
-68b465a6678d7d77cd886134426e20b203e452fc  ./AbeoScan_v140_x64.exe
+1a619c3e77edf8fe2d58c9032d711de29ab5a2b2  ./AbeoScan_v140_x64.exe
 916a65c3eb8d92137e39bfd434284a2a7ac92a48  ./Abeosys.Controls.dll
 9dc7a527b41975e2d305684b1c49840f98d392d3  ./Abeosys.Robotic.dll
 30f5e3718a7bf4df1e7a6c988401576e344962b2  ./AbeosysCalibApp.exe
@@ -13,7 +13,7 @@ e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
 9a45c2c6c1d0165782771816e56d7f2aea29d079  ./devices.dat
-c0504a3e74b5ad45338c86158a3f7f247a92aec7  ./fileinfo.dat
+3fcff2af89a5004032583e7e1e43055013b24a39  ./fileinfo.dat
 cd88866845ea19c5eacdb543e0c17e4b5a336049  ./firmware/as4500_fw_tool.exe
 f1e18c5604cf65fb132e2bd6c06a130d44704471  ./firmware/as4500_fw_upgrade.exe
 7082bdc17358abdbbff836ebfa16f51f96afddf4  ./firmware/AS4500_V3.0_dev.bin
