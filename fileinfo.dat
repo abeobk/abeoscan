@@ -1,4 +1,4 @@
-d0df8ea60bc65da97ce4eaa55665ecbccfa4145a  ./AbeoScan_v140_x64.exe
+f3e6b086ab9fc0c1d4a253f52e31333d1bcea319  ./AbeoScan_v140_x64.exe
 2f1aa4e591a57ea690399a15957b27042adb1a44  ./Abeosys.Controls.dll
 9dc7a527b41975e2d305684b1c49840f98d392d3  ./Abeosys.Robotic.dll
 dbafce80f83cda93d484e8dd5f8bbcf046a1d878  ./AbeosysCalibApp.exe
@@ -13,7 +13,7 @@ e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
 9a45c2c6c1d0165782771816e56d7f2aea29d079  ./devices.dat
-abc31edaabe1ec28993dcc8688247c578d67a188  ./fileinfo.dat
+2d95a2b3dce4bd2a022a4f3b5a23317d038b7758  ./fileinfo.dat
 cd88866845ea19c5eacdb543e0c17e4b5a336049  ./firmware/as4500_fw_tool.exe
 f1e18c5604cf65fb132e2bd6c06a130d44704471  ./firmware/as4500_fw_upgrade.exe
 7082bdc17358abdbbff836ebfa16f51f96afddf4  ./firmware/AS4500_V3.0_dev.bin
@@ -53,8 +53,8 @@ f855732063aab44ff5c80e5ba4fb917ec2cea3af  ./Input.xml
 c7d7cbe0ce9fc8a406b0e176f84db3689f34d2da  ./iris_hw_basler_v140_x64.dll
 7aff84c610ad5d054f3f72bae1b46c8879fc45ce  ./iris_hw_ptgrey_v140_x64.dll
 1c4eaf1bb2b81fd0c9a650677ddd350bb9187b5d  ./iris_hw_ti_v140_x64.dll
-df9d2fa5b2347a901ee12a823b6af161eb40e149  ./iris_mv_v140_x64.dll
-d8c18f5242b167b730daaec3e7aabcd27e412085  ./iris_qt_v140_x64.dll
+d7906e794a3fb94de6d7e2639312d1a249c45f67  ./iris_mv_v140_x64.dll
+5091db8d2f3dd6bfeb04d5d2bbb97972f2afce17  ./iris_qt_v140_x64.dll
 08f6eef326ebb7c0a745885643bcba05985451a5  ./iris_v140_x64.dll
 36fe528aa6bfdcf59dcc423e31d1e2f2a39ee9a9  ./Keywords.xml
 faa1e27eaaea8826c3e3dd93ef5e849e15877b51  ./libiomp5md.dll
