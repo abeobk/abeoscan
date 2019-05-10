@@ -104,6 +104,7 @@ e675f3cc2ba79afdb252090d515b7ec2585a7fe1  ./PylonUsb_MD_VC120_V5_0_TL.dll
 7850c8f330fa425a9432451eec51cb3be8da9c92  ./Qt5Svg.dll
 c7650c11ec1032af7473ae8d9b4ad2f10eb7f68b  ./Qt5Widgets.dll
 ac71ae161adef89257e8bc255e12bd4d42544ca9  ./settings.json
+cab08a7920618793e90e78e73115adf645d7f1ae  ./setup.exe
 6489a6c75c82ef90b53edfc85a7ac78b6dcc2153  ./SFNC_GenTLDataStream_GigE_Version_1_0_0_Schema_1_1.xml
 ad5a77ff94a81c91afe489db4ce5560c3ba865a6  ./SFNC_GenTLDataStream_Usb3_Version_1_0_0_Schema_1_1.xml
 e6f9c848b56128d4f210875a60f286b10fb86d45  ./SFNC_GenTLDevice_GigE_Version_1_0_0_Schema_1_1.xml
