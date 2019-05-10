@@ -1,0 +1,182 @@
+{
+  "NoDevice": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "Decoder": {
+          "BlackWhiteSensitivity": 5,
+          "CameraModel": {
+            "D": {
+              "cols": 0,
+              "data": [],
+              "dt": "d",
+              "rows": 0
+            },
+            "Error": -1.0,
+            "K": {
+              "cols": 0,
+              "data": [],
+              "dt": "d",
+              "rows": 0
+            },
+            "Resolution": [
+              0,
+              0
+            ]
+          },
+          "Debug": false,
+          "DebugDir": "D:/debug/",
+          "EnableTexture": false,
+          "EncodingType": "BinaryXor0_PhaseShift4x4px",
+          "Hpc": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Hpose": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "MaxFillRadius": 9,
+          "MaxGrayLevel": 150,
+          "MinPhaseConfident": 0.5,
+          "MinSegmentSize": 100,
+          "PhaseBlurRadius": 1,
+          "PointcloudBlurRadius": 0,
+          "ProjectorModel": {
+            "D": {
+              "cols": 0,
+              "data": [],
+              "dt": "d",
+              "rows": 0
+            },
+            "Error": -1.0,
+            "K": {
+              "cols": 0,
+              "data": [],
+              "dt": "d",
+              "rows": 0
+            },
+            "Resolution": [
+              0,
+              0
+            ]
+          },
+          "ScannerType": "Horizontal",
+          "Sensitivity": 2,
+          "Step": 1,
+          "TextureExposure": 33333,
+          "ViewPosition": "Camera"
+        },
+        "Detector": {
+          "BlurRadius": 7,
+          "MaxDotArea": 1000.0,
+          "MaxDotAreaMultiplier": 6.0,
+          "MinDotArea": 50.0,
+          "MinDotAreaMultiplier": 0.6,
+          "MinDotRatio": 0.3,
+          "MinKeypointCount": 30,
+          "MorphRadius": 1,
+          "PXMax": 2,
+          "PXMin": -2,
+          "PYMax": 2,
+          "PYMin": -2,
+          "PatternDim": 20.0,
+          "PatternType": "CircleGridWhiteOnGray",
+          "QuadraticFit": false,
+          "XMax": 10,
+          "XMin": -10,
+          "YMax": 7,
+          "YMin": -7
+        },
+        "PointCloudDzFilter": {
+          "Dz": 1.0,
+          "MaxNormalAngle": 80
+        },
+        "PointCloudICPAligner": {
+          "BatchSize": 10,
+          "ExtrapolationThreshold": 0.7,
+          "HighCutRate": 0.1,
+          "LowCutRate": 0.4,
+          "MaxDistance": 50.0,
+          "MaxIteration": 10,
+          "MaxNormalAngle": 30.0,
+          "MaxSampleCount": 2000,
+          "MaxUnchangeCount": 5,
+          "MinError": 0.15,
+          "MinErrorDiff": 0.02,
+          "SampleRadius": 5.0,
+          "SampleRandomRatio": 0.05,
+          "SampleSkipRadius": 1.0,
+          "SampleThreshold": 0.98,
+          "ThreadCount": 1
+        },
+        "PointCloudICPAlignerRefine": {
+          "BatchSize": 10,
+          "HighCutRate": 0.1,
+          "LowCutRate": 0.4,
+          "MaxDistance": 50.0,
+          "MaxIteration": 10,
+          "MaxSampleCount": 2000,
+          "MaxUnchangeCount": 5,
+          "MinError": 0.15,
+          "MinErrorDiff": 0.02,
+          "ThreadCount": 1
+        },
+        "PointCloudOutlierRemovalFilter": {
+          "MinNeighbourCount": 4,
+          "Radius": 1.0
+        },
+        "PointCloudPlaneRemovalFilter": {
+          "Tolerance": 1.0
+        },
+        "PointCloudSmallClusterFilter": {
+          "MinClusterSize": 500,
+          "Radius": 1.0
+        },
+        "PointCloudUniformSampler": {
+          "Radius": 0.5
+        },
+        "PointCloudZRangeFilter": {
+          "Zmax": 700.0,
+          "Zmin": 300.0
+        },
+        "PoissonSurfaceReconstructor": {
+          "Depth": 8,
+          "IsoDivide": 8,
+          "SamplePerNode": 1.0,
+          "Scale": 1.1,
+          "SolverDivide": 8
+        }
+      }
+    },
+    "Visibility": "Beginner"
+  }
+}

@@ -15,7 +15,7 @@
         "Min": 5,
         "Text": "Depth",
         "ToolTip": "",
-        "Visibility": "Guru"
+        "Visibility": "Beginner"
       },
       "IsoDivide": {
         "Accessibility": "ReadWrite",
@@ -486,6 +486,22 @@
         "Category": "",
         "Default": false,
         "Text": "Enable debug",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "Debug": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": false,
+        "Text": "Debug",
+        "ToolTip": "",
+        "Visibility": "Hide"
+      },
+      "DebugDir": {
+        "Accessibility": "ReadWrite",
+        "Category": "",
+        "Default": false,
+        "Text": "Debug dir",
         "ToolTip": "",
         "Visibility": "Hide"
       },

@@ -1,4 +1,4 @@
-8c9e6a64b2a713807d3cce67a1b53ea301d932a7  ./AbeoScan_v140_x64.exe
+1e7879afeb1237676acd2b26b874eab6a6fc6d2c  ./AbeoScan_v140_x64.exe
 2f1aa4e591a57ea690399a15957b27042adb1a44  ./Abeosys.Controls.dll
 9dc7a527b41975e2d305684b1c49840f98d392d3  ./Abeosys.Robotic.dll
 dbafce80f83cda93d484e8dd5f8bbcf046a1d878  ./AbeosysCalibApp.exe
@@ -13,7 +13,7 @@ e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
 9a45c2c6c1d0165782771816e56d7f2aea29d079  ./devices.dat
-60cfa0a2233b066a80e8d6387c12c38381296ff0  ./fileinfo.dat
+9cf4789fdabd10de677e7b0db8ff17d0de2462ef  ./fileinfo.dat
 cd88866845ea19c5eacdb543e0c17e4b5a336049  ./firmware/as4500_fw_tool.exe
 f1e18c5604cf65fb132e2bd6c06a130d44704471  ./firmware/as4500_fw_upgrade.exe
 7082bdc17358abdbbff836ebfa16f51f96afddf4  ./firmware/AS4500_V3.0_dev.bin
@@ -50,12 +50,12 @@ f5be3b755e783ce0b2030cc44122fed2b284dbda  ./imageformats/qjpeg.dll
 8f4f34b1bbe4cd979978d4e40ab6d9e765f0c4e0  ./imageformats/qwbmp.dll
 9330da014b7f84e4b7c9a5cbbffcc34431323e0d  ./imageformats/qwebp.dll
 f855732063aab44ff5c80e5ba4fb917ec2cea3af  ./Input.xml
-c7d7cbe0ce9fc8a406b0e176f84db3689f34d2da  ./iris_hw_basler_v140_x64.dll
-7aff84c610ad5d054f3f72bae1b46c8879fc45ce  ./iris_hw_ptgrey_v140_x64.dll
-1c4eaf1bb2b81fd0c9a650677ddd350bb9187b5d  ./iris_hw_ti_v140_x64.dll
+ec72548ab61b8aeec29d3ea6f6632c0dd57ffb87  ./iris_hw_basler_v140_x64.dll
+c6595a658e3b4fafc7733894f2c829f2713bfd41  ./iris_hw_ptgrey_v140_x64.dll
+8eaaa0243a8f84c842695a1d14443bf8748ecba9  ./iris_hw_ti_v140_x64.dll
 d7906e794a3fb94de6d7e2639312d1a249c45f67  ./iris_mv_v140_x64.dll
-5091db8d2f3dd6bfeb04d5d2bbb97972f2afce17  ./iris_qt_v140_x64.dll
-08f6eef326ebb7c0a745885643bcba05985451a5  ./iris_v140_x64.dll
+1076f19a3d78fa0702033522449ba1438b2b81d4  ./iris_qt_v140_x64.dll
+0ebe1c1898e0a093d69113093cb1294d55cf18f6  ./iris_v140_x64.dll
 36fe528aa6bfdcf59dcc423e31d1e2f2a39ee9a9  ./Keywords.xml
 faa1e27eaaea8826c3e3dd93ef5e849e15877b51  ./libiomp5md.dll
 eca7ab97d5aedcbf92f99003acbe894374e26d0a  ./log4cpp.gentl.property
@@ -66,7 +66,7 @@ b4b0b52cf4e87c6ff4787859eb5d64a8cc958fe5  ./Log_MD_VC120_v3_0_Basler_pylon_v5_0.
 392e7225c22cdef1240370c4c29881550643428e  ./Log_MD_VC140_v3_0.dll
 61772ee1d7dc9566ef5b44592f8c982b64c0525c  ./MathParser_MD_VC120_v3_0_Basler_pylon_v5_0.dll
 ab063b5591c5d32e0afa65ff71f3618fa25457f3  ./MathParser_MD_VC140_v3_0.dll
-b601a87caf1f876f3d22207016b9c02324136a46  ./meta.json
+029503d3822a3846cbc6ab9367e77df9ddeaab75  ./meta.json
 d0164c041707f297a73abb9ea854111953e99cf1  ./msvcp120.dll
 7952bec4fa818a443c7199e3bf46c680cc0b0c38  ./msvcp140.dll
 62cb65a1d79e2c5ada0c7bfc04c18693567c90d0  ./msvcr120.dll
@@ -102,6 +102,7 @@ f59fe862d90cb560d5602e60b686bc8feff2e1bf  ./Qt5Network.dll
 1695c46ee014b6ee1e448ef3e79e0ae45cc6e409  ./Qt5OpenGL.dll
 ef21effa289e59146e0ed3cedf5cba15ae54b1de  ./Qt5Svg.dll
 7129d3f495513c4bb14e6e00075eeb8430d88fd3  ./Qt5Widgets.dll
+7f9074e79e934f04c345882d265f90f1df9ce2d0  ./settings.json
 6489a6c75c82ef90b53edfc85a7ac78b6dcc2153  ./SFNC_GenTLDataStream_GigE_Version_1_0_0_Schema_1_1.xml
 ad5a77ff94a81c91afe489db4ce5560c3ba865a6  ./SFNC_GenTLDataStream_Usb3_Version_1_0_0_Schema_1_1.xml
 e6f9c848b56128d4f210875a60f286b10fb86d45  ./SFNC_GenTLDevice_GigE_Version_1_0_0_Schema_1_1.xml
