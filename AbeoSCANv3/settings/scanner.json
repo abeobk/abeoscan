@@ -1,0 +1,379 @@
+{
+  "Abeo3DScanner_BlackflySBFS-U3-32S4M_18159237_DLPC350_LCR2": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "CalibExposure": 8333,
+        "Camera": {
+          "BufferCount": 12,
+          "DeviceInfo": {
+            "Description": "USB\\VID_1E10&PID_4000&MI_00\\8&29753A89&0&0000",
+            "Model": "Blackfly S BFS-U3-32S4M",
+            "Name": "",
+            "Serial": "18159237",
+            "Vendor": "Point Grey Research"
+          },
+          "EnableGamma": true,
+          "EnableTrigger": true,
+          "ExposureTime": 4166,
+          "GainAll": 1.0,
+          "Gamma": 1.0,
+          "Output1": false,
+          "PixelFormat": "Mono8",
+          "ReverseX": false,
+          "ReverseY": false,
+          "TriggerEdge": "Rising",
+          "TriggerSource": "Software",
+          "WhiteBalance": "Continuous"
+        },
+        "Decoder": {
+          "BlackWhiteSensitivity": 5,
+          "BorderWidth": 2,
+          "CameraModel": {
+            "D": {
+              "cols": 5,
+              "data": [
+                -0.08698342292668938,
+                0.11011807792444972,
+                -0.0014505985739213531,
+                -0.004846029346337602,
+                0.28072097599664964
+              ],
+              "dt": "d",
+              "rows": 1
+            },
+            "Error": 0.19223139291137376,
+            "K": {
+              "cols": 3,
+              "data": [
+                3572.4425090775476,
+                0.0,
+                1032.1920920832586,
+                0.0,
+                3577.295140608954,
+                778.199018311005,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "dt": "d",
+              "rows": 3
+            },
+            "Resolution": [
+              2048,
+              1536
+            ]
+          },
+          "Debug": false,
+          "Dz": 5.0,
+          "EncodingType": "BinaryXor0_PhaseShift4x4px",
+          "Hpc": [
+            0.8764806349572561,
+            0.03075711298890877,
+            -0.48045363620802417,
+            243.46700740759061,
+            0.007498041490864042,
+            0.9969640807539875,
+            0.0775009745755369,
+            -5.566433539452007,
+            0.4813787239988139,
+            -0.07153056470449701,
+            0.8735890924195022,
+            101.73029338383472,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Hpose": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "MaxNormalAngle": 80.0,
+          "MinPhaseConfident": 0.5,
+          "NormalBlurRadius": 1,
+          "PhaseBlurRadius": 1,
+          "PointcloudBlurRadius": 0,
+          "ProjectorModel": {
+            "D": {
+              "cols": 5,
+              "data": [
+                -0.04221088637843458,
+                -0.07305095797343415,
+                -0.0025878729425440174,
+                0.001789325145835378,
+                -0.03661791023826817
+              ],
+              "dt": "d",
+              "rows": 1
+            },
+            "Error": 0.13773446216660795,
+            "K": {
+              "cols": 3,
+              "data": [
+                1203.6321786924923,
+                0.0,
+                438.94184784930803,
+                0.0,
+                1210.8700698458072,
+                510.0642360786367,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "dt": "d",
+              "rows": 3
+            },
+            "Resolution": [
+              912,
+              570
+            ]
+          },
+          "ScannerType": "Horizontal",
+          "Sensitivity": 3,
+          "Step": 1,
+          "ViewPosition": "Camera",
+          "Zmax": 800.0,
+          "Zmin": 300.0
+        },
+        "Detector": {
+          "BlurRadius": 7,
+          "MaxDotArea": 1000.0,
+          "MaxDotAreaMultiplier": 6.0,
+          "MinDotArea": 50.0,
+          "MinDotAreaMultiplier": 0.6000000238418579,
+          "MinDotRatio": 0.30000001192092896,
+          "MinKeypointCount": 30,
+          "MorphRadius": 1,
+          "PXMax": 2,
+          "PXMin": -2,
+          "PYMax": 2,
+          "PYMin": -2,
+          "PatternDim": 14.142000198364258,
+          "PatternType": "CircleGridWhiteOnGray",
+          "XMax": 10,
+          "XMin": -10,
+          "YMax": 7,
+          "YMin": -7
+        },
+        "MaxGrayLevel": 150,
+        "Projector": {
+          "BlueLedPwr": 25,
+          "DeviceInfo": {
+            "Model": "DLPC350",
+            "Name": "DLPC350",
+            "PID": 25601,
+            "Path": "\\\\?\\hid#vid_0451&pid_6401&mi_00#a&3b3b18f8&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+            "Serial": "LCR2",
+            "VID": 1105,
+            "Vendor": "Texas Instruments Inc."
+          },
+          "DisplayMode": "PatternPS4",
+          "ExposureTime": 26112,
+          "GreenLedPwr": 25,
+          "RedLedPwr": 25
+        }
+      },
+      "dark": {
+        "CalibExposure": 16666,
+        "Camera": {
+          "BufferCount": 12,
+          "DeviceInfo": {
+            "Description": "USB\\VID_1E10&PID_4000&MI_00\\8&29753A89&0&0000",
+            "Model": "Blackfly S BFS-U3-32S4M",
+            "Name": "",
+            "Serial": "18159237",
+            "Vendor": "Point Grey Research"
+          },
+          "EnableGamma": true,
+          "EnableTrigger": true,
+          "ExposureTime": 8333,
+          "GainAll": 1.0,
+          "Gamma": 0.5,
+          "Output1": false,
+          "PixelFormat": "Mono8",
+          "ReverseX": false,
+          "ReverseY": false,
+          "TriggerEdge": "Rising",
+          "TriggerSource": "Software",
+          "WhiteBalance": "Continuous"
+        },
+        "Decoder": {
+          "BlackWhiteSensitivity": 5,
+          "BorderWidth": 2,
+          "CameraModel": {
+            "D": {
+              "cols": 5,
+              "data": [
+                -0.08698342292668938,
+                0.11011807792444972,
+                -0.0014505985739213531,
+                -0.004846029346337602,
+                0.28072097599664964
+              ],
+              "dt": "d",
+              "rows": 1
+            },
+            "Error": 0.19223139291137376,
+            "K": {
+              "cols": 3,
+              "data": [
+                3572.4425090775476,
+                0.0,
+                1032.1920920832586,
+                0.0,
+                3577.295140608954,
+                778.199018311005,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "dt": "d",
+              "rows": 3
+            },
+            "Resolution": [
+              2048,
+              1536
+            ]
+          },
+          "Debug": false,
+          "Dz": 5.0,
+          "EncodingType": "BinaryXor0_PhaseShift4x4px",
+          "Hpc": [
+            0.8764806349572561,
+            0.03075711298890877,
+            -0.48045363620802417,
+            243.46700740759061,
+            0.007498041490864042,
+            0.9969640807539875,
+            0.0775009745755369,
+            -5.566433539452007,
+            0.4813787239988139,
+            -0.07153056470449701,
+            0.8735890924195022,
+            101.73029338383472,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Hpose": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "MaxNormalAngle": 80.0,
+          "MinPhaseConfident": 0.5,
+          "NormalBlurRadius": 1,
+          "PhaseBlurRadius": 1,
+          "PointcloudBlurRadius": 0,
+          "ProjectorModel": {
+            "D": {
+              "cols": 5,
+              "data": [
+                -0.04221088637843458,
+                -0.07305095797343415,
+                -0.0025878729425440174,
+                0.001789325145835378,
+                -0.03661791023826817
+              ],
+              "dt": "d",
+              "rows": 1
+            },
+            "Error": 0.13773446216660795,
+            "K": {
+              "cols": 3,
+              "data": [
+                1203.6321786924923,
+                0.0,
+                438.94184784930803,
+                0.0,
+                1210.8700698458072,
+                510.0642360786367,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "dt": "d",
+              "rows": 3
+            },
+            "Resolution": [
+              912,
+              570
+            ]
+          },
+          "ScannerType": "Horizontal",
+          "Sensitivity": 3,
+          "Step": 1,
+          "ViewPosition": "Camera",
+          "Zmax": 800.0,
+          "Zmin": 300.0
+        },
+        "Detector": {
+          "BlurRadius": 7,
+          "MaxDotArea": 1000.0,
+          "MaxDotAreaMultiplier": 6.0,
+          "MinDotArea": 50.0,
+          "MinDotAreaMultiplier": 0.6000000238418579,
+          "MinDotRatio": 0.30000001192092896,
+          "MinKeypointCount": 30,
+          "MorphRadius": 1,
+          "PXMax": 2,
+          "PXMin": -2,
+          "PYMax": 2,
+          "PYMin": -2,
+          "PatternDim": 14.142000198364258,
+          "PatternType": "CircleGridWhiteOnGray",
+          "XMax": 10,
+          "XMin": -10,
+          "YMax": 7,
+          "YMin": -7
+        },
+        "MaxGrayLevel": 150,
+        "Projector": {
+          "BlueLedPwr": 25,
+          "DeviceInfo": {
+            "Model": "DLPC350",
+            "Name": "DLPC350",
+            "PID": 25601,
+            "Path": "\\\\?\\hid#vid_0451&pid_6401&mi_00#a&3b3b18f8&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+            "Serial": "LCR2",
+            "VID": 1105,
+            "Vendor": "Texas Instruments Inc."
+          },
+          "DisplayMode": "PatternPS4",
+          "ExposureTime": 17849,
+          "GreenLedPwr": 25,
+          "RedLedPwr": 25
+        }
+      }
+    }
+  }
+}

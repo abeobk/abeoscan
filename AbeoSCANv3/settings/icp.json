@@ -1,0 +1,24 @@
+{
+  "LastProfile": "Default",
+  "Profiles": {
+    "Default": {
+      "BatchSize": 10,
+      "ExtrapolationThreshold": 0.699999988079071,
+      "HighCutRate": 0.10000000149011612,
+      "LowCutRate": 0.4000000059604645,
+      "MaxDistance": 50.0,
+      "MaxIteration": 30,
+      "MaxNormalAngle": 30.0,
+      "MaxSampleCount": 2000,
+      "MaxUnchangeCount": 5,
+      "Metric": "PointToPlane",
+      "MinError": 0.10000000149011612,
+      "MinErrorDiff": 0.10000000149011612,
+      "SampleRadius": 5.0,
+      "SampleRandomRatio": 0.05000000074505806,
+      "SampleSkipRadius": 1.0,
+      "SampleThreshold": 0.9800000190734863,
+      "ThreadCount": 4
+    }
+  }
+}

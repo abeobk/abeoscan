@@ -6,25 +6,28 @@
         "AutoScan": {
           "AutoCalibAngle": 40.0,
           "AutoCalibPoseCount": 7,
-          "AutoScanAngle": 20.0,
+          "AutoScanAngle": 60.0,
+          "EnableAutoClean": false,
           "EnableAutoFuse": true,
           "EnableAutoICP": true,
-          "EnableAutoOptimize": false
+          "EnableAutoOptimize": false,
+          "EnableAutoSimplify": false,
+          "ErodeRadius": 5
         },
         "Camera": {
           "BufferCount": 12,
           "DeviceInfo": {
             "Description": "USB\\VID_1E10&PID_4000&MI_00\\8&363404EF&0&0000",
             "Model": "Blackfly S BFS-U3-16S2M",
-            "Name": "Ptgrey Camera",
+            "Name": "AbeoSCAN_M1",
             "Serial": "17513978",
             "Vendor": "FLIR"
           },
           "EnableGamma": true,
           "EnableTrigger": true,
-          "ExposureTime": 8333,
-          "GainAll": 1.0,
-          "Gamma": 1.0,
+          "ExposureTime": 4166,
+          "GainAll": 0.0,
+          "Gamma": 0.7,
           "Output1": false,
           "PixelFormat": "Mono8",
           "ReverseX": false,
@@ -34,30 +37,31 @@
           "WhiteBalance": "Once"
         },
         "Decoder": {
-          "BlackWhiteSensitivity": 5,
+          "BlackWhiteSensitivity": 2,
+          "BorderWidth": 2,
           "CameraModel": {
             "D": {
               "cols": 5,
               "data": [
-                -0.08335534399520515,
-                -0.3872239850965777,
-                -0.0019656203249635174,
-                -0.005875924585380661,
-                7.298178119850832
+                -0.12713257728338426,
+                2.2001718595955926,
+                0.0011581118729814847,
+                -0.000684965669619892,
+                -24.522756357415965
               ],
               "dt": "d",
               "rows": 1
             },
-            "Error": 0.11727091397850364,
+            "Error": 0.18107588104546904,
             "K": {
               "cols": 3,
               "data": [
-                3552.111943610223,
+                3522.930707893492,
                 0.0,
-                737.5462287220397,
+                721.2638742397891,
                 0.0,
-                3562.0931672499732,
-                537.5818945266528,
+                3524.4655036953177,
+                571.5342237285092,
                 0.0,
                 0.0,
                 1.0
@@ -70,23 +74,933 @@
               1080
             ]
           },
-          "Debug": false,
+          "Debug": true,
           "DebugDir": "D:/debug/",
+          "Dz": 1.0,
           "EnableTexture": false,
           "EncodingType": "BinaryXor0_PhaseShift4x4px",
           "Hpc": [
-            0.9248665099745197,
-            0.04227886775698281,
-            -0.37793443355791134,
-            349.6523169178656,
-            0.004703841803262734,
-            0.9924530387945945,
-            0.12253505481969287,
-            -9.785311911876258,
-            0.38026282042797926,
-            -0.1151063122880879,
-            0.9176877051980132,
-            108.41366549125274,
+            0.8731677854630875,
+            0.11346793485033066,
+            -0.4740285288780504,
+            224.983642891563,
+            -0.007550963352950496,
+            0.9755585460825236,
+            0.21960989530937639,
+            5.927124976126295,
+            0.4873612637273606,
+            -0.1881769139032575,
+            0.8526830874902563,
+            91.24288345045034,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Hpose": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "MaxFillRadius": 0,
+          "MaxGrayLevel": 150,
+          "MaxNormalAngle": 70.0,
+          "MinPhaseConfident": 0.5,
+          "MinSegmentSize": 100,
+          "NormalBlurRadius": 2,
+          "PhaseBlurRadius": 1,
+          "PhaseMagCoeff": 0.01,
+          "PointcloudBlurRadius": 0,
+          "ProjectorModel": {
+            "D": {
+              "cols": 5,
+              "data": [
+                0.028115107516802,
+                -0.03019517032148653,
+                -0.001922874098278918,
+                -0.004098440418702203,
+                -0.2760502402659764
+              ],
+              "dt": "d",
+              "rows": 1
+            },
+            "Error": 0.13381873018844895,
+            "K": {
+              "cols": 3,
+              "data": [
+                1141.4698951313303,
+                0.0,
+                417.8489096755764,
+                0.0,
+                1140.7400490377122,
+                580.2807570733258,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "dt": "d",
+              "rows": 3
+            },
+            "Resolution": [
+              912,
+              570
+            ]
+          },
+          "ScannerType": "Horizontal",
+          "Sensitivity": 1,
+          "Step": 1,
+          "TextureExposure": 33333,
+          "ViewPosition": "Camera",
+          "Zmax": 900.0,
+          "Zmin": 400.0
+        },
+        "Detector": {
+          "BlurRadius": 7,
+          "MaxDotArea": 1000.0,
+          "MaxDotAreaMultiplier": 6.0,
+          "MinDotArea": 50.0,
+          "MinDotAreaMultiplier": 0.6,
+          "MinDotRatio": 0.3,
+          "MinKeypointCount": 30,
+          "MorphRadius": 1,
+          "PXMax": 2,
+          "PXMin": -2,
+          "PYMax": 2,
+          "PYMin": -2,
+          "PatternDim": 15.0,
+          "PatternType": "CircleGridWhiteOnGray",
+          "QuadraticFit": false,
+          "XMax": 10,
+          "XMin": -10,
+          "YMax": 7,
+          "YMin": -7
+        },
+        "MonteCarloSampler": {
+          "Resolution": 0.05
+        },
+        "OtherSettings": {
+          "ChainMaxNeighbourDistance": 2.0,
+          "ChainMinLength": 102,
+          "ClippingDistance": 10.0,
+          "CurvatureRadius": 3.0,
+          "CurvatureThreshold": 0.01,
+          "IntersectRadius": 3.0,
+          "MaxCurvatureAngle": 80.0,
+          "NormalSmoothRadius": 2.0,
+          "OverlapMaxRadius": 5.0,
+          "ShowShereROI": true,
+          "SphereROIRadius": 10.0,
+          "SubtractRadius": 3.0,
+          "VectorLength": 10.0,
+          "VertexSmoothRadius": 3.0
+        },
+        "PointCloudDzFilter": {
+          "Dz": 4.93,
+          "MaxNormalAngle": 90
+        },
+        "PointCloudICPAligner": {
+          "BatchSize": 20,
+          "ExtrapolationThreshold": 0.5,
+          "HighCutRate": 0.1,
+          "LowCutRate": 0.4,
+          "MaxDistance": 50.0,
+          "MaxIteration": 50,
+          "MaxNormalAngle": 30.0,
+          "MaxSampleCount": 2000,
+          "MaxUnchangeCount": 5,
+          "Metric": "PointToPlane",
+          "MinError": 0.1,
+          "MinErrorDiff": 0.05,
+          "SampleRadius": 5.0,
+          "SampleRandomRatio": 0.1,
+          "SampleSkipRadius": 1.0,
+          "SampleThreshold": 0.95,
+          "ThreadCount": 2
+        },
+        "PointCloudICPAlignerRefine": {
+          "BatchSize": 10,
+          "HighCutRate": 0.3,
+          "LowCutRate": 0.1,
+          "MaxDistance": 100.0,
+          "MaxIteration": 10,
+          "MaxSampleCount": 10000,
+          "MaxUnchangeCount": 5,
+          "MinError": 0.1,
+          "MinErrorDiff": 0.02,
+          "ThreadCount": 16
+        },
+        "PointCloudOutlierRemovalFilter": {
+          "MinNeighbourCount": 5,
+          "Radius": 1.0
+        },
+        "PointCloudPlaneRemovalFilter": {
+          "Tolerance": 1.0
+        },
+        "PointCloudSmallClusterFilter": {
+          "MinClusterSize": 100,
+          "Radius": 1.0
+        },
+        "PointCloudUniformSampler": {
+          "Radius": 0.5
+        },
+        "PointCloudZRangeFilter": {
+          "Zmax": 1761.18,
+          "Zmin": 500.0
+        },
+        "PoissonSurfaceReconstructor": {
+          "Depth": 8,
+          "IsoDivide": 8,
+          "SamplePerNode": 1.0,
+          "Scale": 1.1,
+          "SolverDivide": 8
+        },
+        "Projector": {
+          "BlueLedPwr": 15,
+          "DeviceInfo": {
+            "Model": "DLPC350",
+            "Name": "DLPC350",
+            "PID": 25601,
+            "Path": "\\\\?\\hid#vid_0451&pid_6401&mi_00#a&3b3b18f8&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+            "Serial": "LCR2",
+            "VID": 1105,
+            "Vendor": "Texas Instruments Inc."
+          },
+          "DisplayMode": "PatternPS4",
+          "ExposureTime": 16666,
+          "GreenLedPwr": 15,
+          "RedLedPwr": 15
+        },
+        "TemplateMatching3D": {
+          "AngleStep": 6.0,
+          "DistanceStep": 5.0,
+          "FeatureSearchRadius": 0.5,
+          "MatchCutRate": 0.5,
+          "MaxBucketSize": 200,
+          "MaxHypothesis": 200,
+          "MaxMatchCount": 10000,
+          "MinScore": 0.3,
+          "MinSumAngle": 30.0,
+          "OverlapRadius": 1.0,
+          "OverlapSimplifyRadius": 5.0,
+          "ResultCount": 1,
+          "RotationClusterRadius": 4.0,
+          "SearchMethod": "SearchTree",
+          "SearchSimplifyRadius": 6.0,
+          "TrainSimplifyRadius": 2.0,
+          "TranslationClusterRadius": 5.0
+        },
+        "TurnTable": {
+          "AutoCalibAngle": 40.0,
+          "AutoCalibPoseCount": 7,
+          "AutoScanAngle": 60.0,
+          "Enable": true,
+          "IP": "192.168.4.1",
+          "StepDelay": 1583,
+          "StepPerRevolution": 10000,
+          "UseWifi": false
+        }
+      }
+    },
+    "Visibility": "Beginner",
+    "X": [
+      0.08177669391780412,
+      0.9949221686149934,
+      -0.058672401777261074,
+      -50.94536424582608,
+      -0.9317301600392486,
+      0.05541780664014516,
+      -0.35889800163894886,
+      87.73229668139302,
+      -0.3538240822854054,
+      0.08401633832555425,
+      0.9315308764014517,
+      -172.52898234362723,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Abeo3DScanner_BlackflySBFS-U3-32S4M_18159237_DLPC350_LCR2": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "Camera": {
+          "BufferCount": 12,
+          "DeviceInfo": {
+            "Description": "USB\\VID_1E10&PID_4000&MI_00\\8&29753A89&0&0000",
+            "Model": "Blackfly S BFS-U3-32S4M",
+            "Name": "",
+            "Serial": "18159237",
+            "Vendor": "Point Grey Research"
+          },
+          "EnableGamma": true,
+          "EnableTrigger": true,
+          "ExposureTime": 4333,
+          "GainAll": 1.0,
+          "Gamma": 0.748,
+          "Output1": false,
+          "PixelFormat": "Mono8",
+          "ReverseX": false,
+          "ReverseY": false,
+          "TriggerEdge": "Rising",
+          "TriggerSource": "Software",
+          "WhiteBalance": "Once"
+        },
+        "Decoder": {
+          "BlackWhiteSensitivity": 5,
+          "BorderWidth": 2,
+          "CameraModel": {
+            "D": {
+              "cols": 5,
+              "data": [
+                -0.05276390697677739,
+                -0.09293431702151463,
+                0.0039690674688809945,
+                0.006300694484562078,
+                0.7379929477047735
+              ],
+              "dt": "d",
+              "rows": 1
+            },
+            "Error": 0.25250332945099097,
+            "K": {
+              "cols": 3,
+              "data": [
+                3536.562216647719,
+                0.0,
+                1112.5656239806863,
+                0.0,
+                3533.2483193762273,
+                845.3511794710909,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "dt": "d",
+              "rows": 3
+            },
+            "Resolution": [
+              2048,
+              1536
+            ]
+          },
+          "Debug": false,
+          "DebugDir": "D:/debug/imgs",
+          "Dz": 10.0,
+          "EnableTexture": false,
+          "EncodingType": "BinaryXor0_PhaseShift4x4px",
+          "Hpc": [
+            0.8649663491903286,
+            0.052295366578098156,
+            -0.49909759506815593,
+            272.67139498658264,
+            -0.001956917923058764,
+            0.9948993186556785,
+            0.10085393502838207,
+            2.75457774745213,
+            0.501826050779149,
+            -0.08625856695383383,
+            0.8606567692096971,
+            53.548507556861864,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Hpose": [
+            0.5350473874791482,
+            0.7475067564409106,
+            0.3936469766515781,
+            -253.888536300787,
+            0.652957486952965,
+            -0.6615630221718415,
+            0.36875586493902324,
+            374.7077630004268,
+            0.5360697840615574,
+            0.05973287846780885,
+            -0.8420576998318727,
+            380.85474424891254,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "MaxFillRadius": 9,
+          "MaxGrayLevel": 150,
+          "MaxNormalAngle": 90.0,
+          "MinPhaseConfident": 0.5,
+          "MinSegmentSize": 100,
+          "NormalBlurRadius": 1,
+          "PhaseBlurRadius": 1,
+          "PointcloudBlurRadius": 0,
+          "ProjectorModel": {
+            "D": {
+              "cols": 5,
+              "data": [
+                -0.053548363888491234,
+                0.23721629110104767,
+                0.0005965945234886812,
+                0.003751091672609671,
+                -1.1910631596396233
+              ],
+              "dt": "d",
+              "rows": 1
+            },
+            "Error": 0.11890353161849355,
+            "K": {
+              "cols": 3,
+              "data": [
+                1305.2015236807122,
+                0.0,
+                450.3747178378645,
+                0.0,
+                1305.3230422972028,
+                586.1984668645686,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "dt": "d",
+              "rows": 3
+            },
+            "Resolution": [
+              912,
+              570
+            ]
+          },
+          "ScannerType": "Horizontal",
+          "Sensitivity": 2,
+          "Step": 1,
+          "TextureExposure": 8333,
+          "ViewPosition": "Camera",
+          "Zmax": 3120.0,
+          "Zmin": 0.0
+        },
+        "Detector": {
+          "BlurRadius": 7,
+          "MaxDotArea": 1000.0,
+          "MaxDotAreaMultiplier": 6.0,
+          "MinDotArea": 50.0,
+          "MinDotAreaMultiplier": 0.6,
+          "MinDotRatio": 0.3,
+          "MinKeypointCount": 30,
+          "MorphRadius": 1,
+          "PXMax": 2,
+          "PXMin": -2,
+          "PYMax": 2,
+          "PYMin": -2,
+          "PatternDim": 15.0,
+          "PatternType": "CircleGridWhiteOnGray",
+          "QuadraticFit": false,
+          "XMax": 9,
+          "XMin": -9,
+          "YMax": 6,
+          "YMin": -7
+        },
+        "MonteCarloSampler": {
+          "Resolution": 0.05
+        },
+        "OtherSettings": {
+          "ChainMaxNeighbourDistance": 1.0,
+          "ChainMinLength": 5,
+          "ClippingDistance": 10.0,
+          "CurvatureRadius": 5.0,
+          "CurvatureThreshold": 0.20000000298023224,
+          "IntersectRadius": 3.0,
+          "MaxCurvatureAngle": 60.0,
+          "NormalSmoothRadius": 3.0,
+          "OverlapMaxRadius": 5.0,
+          "ShowShereROI": true,
+          "SphereROIRadius": 10.0,
+          "SubtractRadius": 3.0,
+          "VectorLength": 5.0,
+          "VertexSmoothRadius": 3.0
+        },
+        "PointCloudDzFilter": {
+          "Dz": 1.0,
+          "MaxNormalAngle": 80
+        },
+        "PointCloudICPAligner": {
+          "BatchSize": 10,
+          "ExtrapolationThreshold": 0.7,
+          "HighCutRate": 0.1,
+          "LowCutRate": 0.4,
+          "MaxDistance": 50.0,
+          "MaxIteration": 10,
+          "MaxNormalAngle": 30.0,
+          "MaxSampleCount": 2000,
+          "MaxUnchangeCount": 5,
+          "Metric": "PointToPlane",
+          "MinError": 0.15,
+          "MinErrorDiff": 0.02,
+          "SampleRadius": 5.0,
+          "SampleRandomRatio": 0.05,
+          "SampleSkipRadius": 1.0,
+          "SampleThreshold": 0.98,
+          "ThreadCount": 1
+        },
+        "PointCloudICPAlignerRefine": {
+          "BatchSize": 10,
+          "HighCutRate": 0.1,
+          "LowCutRate": 0.4,
+          "MaxDistance": 50.0,
+          "MaxIteration": 10,
+          "MaxSampleCount": 2000,
+          "MaxUnchangeCount": 5,
+          "MinError": 0.15,
+          "MinErrorDiff": 0.02,
+          "ThreadCount": 1
+        },
+        "PointCloudOutlierRemovalFilter": {
+          "MinNeighbourCount": 4,
+          "Radius": 1.0
+        },
+        "PointCloudPlaneRemovalFilter": {
+          "Tolerance": 1.0
+        },
+        "PointCloudSmallClusterFilter": {
+          "MinClusterSize": 500,
+          "Radius": 1.0
+        },
+        "PointCloudUniformSampler": {
+          "Radius": 0.5
+        },
+        "PointCloudZRangeFilter": {
+          "Zmax": 700.0,
+          "Zmin": 300.0
+        },
+        "PoissonSurfaceReconstructor": {
+          "Depth": 8,
+          "IsoDivide": 8,
+          "SamplePerNode": 1.0,
+          "Scale": 1.1,
+          "SolverDivide": 8
+        },
+        "Projector": {
+          "BlueLedPwr": 20,
+          "DeviceInfo": {
+            "Model": "DLPC350",
+            "Name": "DLPC350",
+            "PID": 25601,
+            "Path": "\\\\?\\hid#vid_0451&pid_6401&mi_00#a&3b3b18f8&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+            "Serial": "LCR2",
+            "VID": 1105,
+            "Vendor": "Texas Instruments Inc."
+          },
+          "DisplayMode": "PatternPS4",
+          "ExposureTime": 16666,
+          "GreenLedPwr": 20,
+          "RedLedPwr": 20
+        },
+        "TemplateMatching3D": {
+          "AngleStep": 6.0,
+          "DistanceStep": 5.0,
+          "FeatureSearchRadius": 0.5,
+          "MaxBucketSize": 200,
+          "MaxHypothesis": 500,
+          "MaxMatchCount": 10000,
+          "MinScore": 0.3,
+          "MinSumAngle": 30.0,
+          "OverlapRadius": 1.0,
+          "OverlapSimplifyRadius": 5.0,
+          "ResultCount": 1,
+          "RotationClusterRadius": 4.0,
+          "SearchMethod": "HashTable",
+          "SearchSimplifyRadius": 6.0,
+          "TrainSimplifyRadius": 2.0,
+          "TranslationClusterRadius": 5.0
+        }
+      }
+    },
+    "Visibility": "Beginner",
+    "X": [
+      0.031148451066956018,
+      0.9969772659265543,
+      -0.07117657776082909,
+      -46.62137538251536,
+      -0.944556463698913,
+      0.00607306546614278,
+      -0.32829286431545557,
+      91.01004966672654,
+      -0.32686826227202215,
+      0.07745611080772075,
+      0.9418904872742956,
+      -177.16143756152562,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Abeo3DScanner_BlackflySBFS-U3-32S4M_18383351_DLPC350_LCR2": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "Camera": {
+          "BufferCount": 12,
+          "DeviceInfo": {
+            "Description": "USB\\VID_1E10&PID_4000&MI_00\\8&50A5323&0&0000",
+            "Model": "Blackfly S BFS-U3-32S4M",
+            "Name": "",
+            "Serial": "18383351",
+            "Vendor": "Point Grey Research"
+          },
+          "EnableGamma": true,
+          "EnableTrigger": true,
+          "ExposureTime": 4166,
+          "GainAll": 1.0,
+          "Gamma": 1.0,
+          "Output1": false,
+          "PixelFormat": "Mono8",
+          "ReverseX": false,
+          "ReverseY": false,
+          "TriggerEdge": "Rising",
+          "TriggerSource": "Software",
+          "WhiteBalance": "Once"
+        },
+        "Decoder": {
+          "BlackWhiteSensitivity": 5,
+          "BorderWidth": 2,
+          "CameraModel": {
+            "D": {
+              "cols": 5,
+              "data": [
+                -0.08523127780255552,
+                0.15615890521468676,
+                0.0005476816343266738,
+                -0.0016369605801666966,
+                -0.15975177920600028
+              ],
+              "dt": "d",
+              "rows": 1
+            },
+            "Error": 0.3563979742749983,
+            "K": {
+              "cols": 3,
+              "data": [
+                3549.675058151178,
+                0.0,
+                1034.6208863997413,
+                0.0,
+                3548.184428522546,
+                826.9594700618455,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "dt": "d",
+              "rows": 3
+            },
+            "Resolution": [
+              2048,
+              1536
+            ]
+          },
+          "Debug": false,
+          "DebugDir": "D:/debug/",
+          "Dz": 5.0,
+          "EnableTexture": false,
+          "EncodingType": "BinaryXor0_PhaseShift4x4px",
+          "Hpc": [
+            0.8974568592065569,
+            0.03766379453331134,
+            -0.43949132465209667,
+            229.271095805205,
+            0.05054170396850998,
+            0.9810057069767925,
+            0.18727877359413456,
+            20.85831841219667,
+            0.43819712689959717,
+            -0.19028726037314247,
+            0.8785067082934668,
+            92.78926420913675,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Hpose": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "MaxGrayLevel": 150,
+          "MaxNormalAngle": 80.0,
+          "MinPhaseConfident": 0.5,
+          "NormalBlurRadius": 1,
+          "PhaseBlurRadius": 1,
+          "PointcloudBlurRadius": 0,
+          "ProjectorModel": {
+            "D": {
+              "cols": 5,
+              "data": [
+                0.058070525985179575,
+                -0.2058850199361437,
+                0.0021752188444335084,
+                -0.0035473455806058103,
+                0.15338607055542305
+              ],
+              "dt": "d",
+              "rows": 1
+            },
+            "Error": 0.1586956057006192,
+            "K": {
+              "cols": 3,
+              "data": [
+                1116.7841221271901,
+                0.0,
+                424.89513432160084,
+                0.0,
+                1117.2137122476279,
+                581.4751258368788,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "dt": "d",
+              "rows": 3
+            },
+            "Resolution": [
+              912,
+              570
+            ]
+          },
+          "ScannerType": "Horizontal",
+          "Sensitivity": 2,
+          "Step": 1,
+          "TextureExposure": 8333,
+          "ViewPosition": "Camera",
+          "Zmax": 600.0,
+          "Zmin": 300.0
+        },
+        "Detector": {
+          "BlurRadius": 7,
+          "MaxDotArea": 1000.0,
+          "MaxDotAreaMultiplier": 6.0,
+          "MinDotArea": 50.0,
+          "MinDotAreaMultiplier": 0.6,
+          "MinDotRatio": 0.3,
+          "MinKeypointCount": 30,
+          "MorphRadius": 1,
+          "PXMax": 2,
+          "PXMin": -2,
+          "PYMax": 2,
+          "PYMin": -2,
+          "PatternDim": 15.0,
+          "PatternType": "CircleGridWhiteOnGray",
+          "QuadraticFit": false,
+          "XMax": 10,
+          "XMin": -10,
+          "YMax": 7,
+          "YMin": -7
+        },
+        "MonteCarloSampler": {
+          "Resolution": 0.05
+        },
+        "OtherSettings": {
+          "ChainMaxNeighbourDistance": 1.0,
+          "ChainMinLength": 5,
+          "ClippingDistance": 10.0,
+          "CurvatureRadius": 5.0,
+          "CurvatureThreshold": 0.20000000298023224,
+          "IntersectRadius": 3.0,
+          "MaxCurvatureAngle": 60.0,
+          "NormalSmoothRadius": 3.0,
+          "OverlapMaxRadius": 5.0,
+          "ShowShereROI": true,
+          "SphereROIRadius": 10.0,
+          "SubtractRadius": 3.0,
+          "VectorLength": 5.0,
+          "VertexSmoothRadius": 3.0
+        },
+        "PointCloudICPAligner": {
+          "BatchSize": 10,
+          "ExtrapolationThreshold": 0.7,
+          "HighCutRate": 0.1,
+          "LowCutRate": 0.4,
+          "MaxDistance": 50.0,
+          "MaxIteration": 30,
+          "MaxNormalAngle": 30.0,
+          "MaxSampleCount": 2000,
+          "MaxUnchangeCount": 5,
+          "Metric": "PointToPlane",
+          "MinError": 0.1,
+          "MinErrorDiff": 0.05,
+          "SampleRadius": 5.0,
+          "SampleRandomRatio": 0.05,
+          "SampleSkipRadius": 1.0,
+          "SampleThreshold": 0.98,
+          "ThreadCount": 1
+        },
+        "PointCloudOutlierRemovalFilter": {
+          "MinNeighbourCount": 4,
+          "Radius": 1.0
+        },
+        "PointCloudPlaneRemovalFilter": {
+          "Tolerance": 1.0
+        },
+        "PointCloudSmallClusterFilter": {
+          "MinClusterSize": 500,
+          "Radius": 1.0
+        },
+        "PointCloudUniformSampler": {
+          "Radius": 0.5
+        },
+        "PoissonSurfaceReconstructor": {
+          "Depth": 8,
+          "IsoDivide": 8,
+          "SamplePerNode": 1.0,
+          "Scale": 1.1,
+          "SolverDivide": 8
+        },
+        "Projector": {
+          "BlueLedPwr": 10,
+          "DeviceInfo": {
+            "Model": "DLPC350",
+            "Name": "DLPC350",
+            "PID": 25601,
+            "Path": "\\\\?\\hid#vid_0451&pid_6401&mi_00#9&2ac8e906&1&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+            "Serial": "LCR2",
+            "VID": 1105,
+            "Vendor": "Texas Instruments Inc."
+          },
+          "DisplayMode": "PatternPS4",
+          "ExposureTime": 16666,
+          "GreenLedPwr": 10,
+          "RedLedPwr": 10
+        },
+        "TemplateMatching3D": {
+          "AngleStep": 6.0,
+          "DistanceStep": 5.0,
+          "FeatureSearchRadius": 0.5,
+          "MaxBucketSize": 200,
+          "MaxHypothesis": 500,
+          "MaxMatchCount": 10000,
+          "MinScore": 0.3,
+          "MinSumAngle": 30.0,
+          "OverlapRadius": 1.0,
+          "OverlapSimplifyRadius": 5.0,
+          "ResultCount": 1,
+          "RotationClusterRadius": 4.0,
+          "SearchMethod": "HashTable",
+          "SearchSimplifyRadius": 6.0,
+          "TrainSimplifyRadius": 2.0,
+          "TranslationClusterRadius": 5.0
+        }
+      }
+    },
+    "Visibility": "Beginner",
+    "X": [
+      0.005082708561261168,
+      0.9987866792776927,
+      -0.04898301104587666,
+      -51.954897748697654,
+      -0.9492938907639964,
+      -0.010578902439064689,
+      -0.314212023610393,
+      93.02662110994139,
+      -0.31434897014597474,
+      0.04809632127953217,
+      0.9480883233367772,
+      -177.6992833051229,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Abeo3DScanner_CIC-5MR_21871007_LC4500RB_LC4500RB": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "Camera": {
+          "BufferCount": 12,
+          "DeviceInfo": {
+            "Description": "COGNEX CIC-5MR#0030531C8C9F#192.168.1.11:3956",
+            "IP": "192.168.1.11",
+            "Model": "CIC-5MR",
+            "Name": "COGNEX CIC-5MR (21871007)",
+            "Serial": "21871007",
+            "Vendor": "COGNEX",
+            "Version": "106485-05"
+          },
+          "EnableGamma": true,
+          "EnableTrigger": true,
+          "ExposureTime": 12788,
+          "GainAll": 14.31,
+          "GainAnalog": 1,
+          "GainDigital": 0,
+          "Gamma": 0.8,
+          "Output1": false,
+          "PixelFormat": "Mono8",
+          "ReverseX": false,
+          "TriggerEdge": "Rising",
+          "TriggerSource": "Software",
+          "WhiteBalance": "Off"
+        },
+        "Decoder": {
+          "BlackWhiteSensitivity": 15,
+          "CameraModel": {
+            "D": {
+              "cols": 0,
+              "data": [],
+              "dt": "d",
+              "rows": 0
+            },
+            "Error": -1.0,
+            "K": {
+              "cols": 0,
+              "data": [],
+              "dt": "d",
+              "rows": 0
+            },
+            "Resolution": [
+              2590,
+              1942
+            ]
+          },
+          "EnableTexture": false,
+          "EncodingType": "BinaryXor0_PhaseShift4x4px",
+          "Hpc": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
             0.0,
             0.0,
             0.0,
@@ -114,37 +1028,21 @@
           "MaxGrayLevel": 150,
           "MinPhaseConfident": 0.5,
           "MinSegmentSize": 100,
-          "PhaseBlurRadius": 1,
+          "PhaseBlurRadius": 0,
           "PointcloudBlurRadius": 0,
           "ProjectorModel": {
             "D": {
-              "cols": 5,
-              "data": [
-                -0.04149751158616309,
-                -0.23582132019956056,
-                -0.0029788702738928192,
-                0.0005162289997163503,
-                1.251310621339972
-              ],
+              "cols": 0,
+              "data": [],
               "dt": "d",
-              "rows": 1
+              "rows": 0
             },
-            "Error": 0.10510277533695178,
+            "Error": -1.0,
             "K": {
-              "cols": 3,
-              "data": [
-                1184.3696243421925,
-                0.0,
-                433.13677644859416,
-                0.0,
-                1196.7438764841402,
-                483.19357412935244,
-                0.0,
-                0.0,
-                1.0
-              ],
+              "cols": 0,
+              "data": [],
               "dt": "d",
-              "rows": 3
+              "rows": 0
             },
             "Resolution": [
               912,
@@ -152,10 +1050,9 @@
             ]
           },
           "ScannerType": "Horizontal",
-          "Sensitivity": 2,
+          "Sensitivity": 3,
           "Step": 1,
-          "TextureExposure": 33333,
-          "ViewPosition": "Camera"
+          "TextureExposure": 99999
         },
         "Detector": {
           "BlurRadius": 7,
@@ -178,30 +1075,18 @@
           "YMax": 7,
           "YMin": -7
         },
-        "OtherSettings": {
-          "ClippingDistance": 10.0,
-          "CurvatureRadius": 5.0,
-          "IntersectRadius": 3.0,
-          "MaxCurvatureAngle": 60.0,
-          "NormalSmoothRadius": 3.0,
-          "OverlapMaxRadius": 5.0,
-          "SubtractRadius": 3.0,
-          "VectorLength": 5.0,
-          "VertexSmoothRadius": 3.0
-        },
         "PointCloudDzFilter": {
-          "Dz": 1.0,
-          "MaxNormalAngle": 80
+          "Dz": 0.5
         },
         "PointCloudICPAligner": {
           "BatchSize": 10,
           "ExtrapolationThreshold": 0.7,
           "HighCutRate": 0.1,
-          "LowCutRate": 0.4,
+          "LowCutRate": 0.35,
           "MaxDistance": 50.0,
           "MaxIteration": 10,
-          "MaxNormalAngle": 30.0,
-          "MaxSampleCount": 2000,
+          "MaxNormalAngle": 60.0,
+          "MaxSampleCount": 1000,
           "MaxUnchangeCount": 5,
           "MinError": 0.15,
           "MinErrorDiff": 0.02,
@@ -249,37 +1134,60 @@
           "SolverDivide": 8
         },
         "Projector": {
-          "BlueLedPwr": 10,
+          "BlueLedPwr": 12,
           "DeviceInfo": {
-            "Model": "DLPC350",
-            "Name": "DLPC350",
-            "PID": 25601,
-            "Path": "\\\\?\\hid#vid_0451&pid_6401&mi_00#a&3b3b18f8&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
-            "Serial": "LCR2",
-            "VID": 1105,
-            "Vendor": "Texas Instruments Inc."
+            "IP": "192.168.1.160",
+            "Model": "LC4500RB",
+            "Name": "LC4500Bridge",
+            "Port": 12345,
+            "Serial": "LC4500RB",
+            "Vendor": "Abeosystem"
           },
           "DisplayMode": "PatternPS4",
-          "ExposureTime": 33333,
-          "GreenLedPwr": 10,
-          "RedLedPwr": 10
-        },
-        "TurnTable": {
-          "IP": "192.168.4.1",
-          "StepDelay": 1000,
-          "StepPerRevolution": 100000,
-          "UseWifi": false
+          "ExposureTime": 100000,
+          "GreenLedPwr": 11,
+          "RedLedPwr": 11
         }
       }
     },
-    "Visibility": "Beginner"
+    "Visibility": "Guru"
   },
   "NoDevice": {
-    "LastProfile": "Default",
+    "LastProfile": "test",
     "Profiles": {
       "Default": {
+        "AutoScan": {
+          "AutoCalibAngle": 40.0,
+          "AutoCalibPoseCount": 7,
+          "AutoScanAngle": 20.0,
+          "EnableAutoClean": false,
+          "EnableAutoFuse": true,
+          "EnableAutoICP": true,
+          "EnableAutoOptimize": false,
+          "EnableAutoSimplify": false,
+          "ErodeRadius": 5
+        },
+        "Camera": {
+          "BufferCount": 12,
+          "DeviceInfo": null,
+          "EnableGamma": true,
+          "EnableTrigger": true,
+          "ExposureTime": 4166,
+          "GainAll": 1.0,
+          "GainAnalog": 1,
+          "GainDigital": 0,
+          "Gamma": 0.25,
+          "Output1": true,
+          "PixelFormat": "Mono8",
+          "ReverseX": false,
+          "ReverseY": false,
+          "TriggerEdge": "Rising",
+          "TriggerSource": "Software",
+          "WhiteBalance": "Continuous"
+        },
         "Decoder": {
           "BlackWhiteSensitivity": 5,
+          "BorderWidth": 2,
           "CameraModel": {
             "D": {
               "cols": 0,
@@ -301,6 +1209,7 @@
           },
           "Debug": false,
           "DebugDir": "D:/debug/",
+          "Dz": 1.0,
           "EnableTexture": false,
           "EncodingType": "BinaryXor0_PhaseShift4x4px",
           "Hpc": [
@@ -341,8 +1250,10 @@
           ],
           "MaxFillRadius": 9,
           "MaxGrayLevel": 150,
+          "MaxNormalAngle": 80.0,
           "MinPhaseConfident": 0.5,
           "MinSegmentSize": 100,
+          "NormalBlurRadius": 0,
           "PhaseBlurRadius": 1,
           "PointcloudBlurRadius": 0,
           "ProjectorModel": {
@@ -368,7 +1279,9 @@
           "Sensitivity": 2,
           "Step": 1,
           "TextureExposure": 33333,
-          "ViewPosition": "Camera"
+          "ViewPosition": "Camera",
+          "Zmax": 600.0,
+          "Zmin": 300.0
         },
         "Detector": {
           "BlurRadius": 7,
@@ -391,6 +1304,18 @@
           "YMax": 7,
           "YMin": -7
         },
+        "OtherSettings": {
+          "ClippingDistance": 10.0,
+          "CurvatureRadius": 5.0,
+          "CurvatureThreshold": 0.20000000298023224,
+          "IntersectRadius": 3.0,
+          "MaxCurvatureAngle": 60.0,
+          "NormalSmoothRadius": 3.0,
+          "OverlapMaxRadius": 5.0,
+          "SubtractRadius": 3.0,
+          "VectorLength": 5.0,
+          "VertexSmoothRadius": 3.0
+        },
         "PointCloudDzFilter": {
           "Dz": 1.0,
           "MaxNormalAngle": 80
@@ -399,19 +1324,20 @@
           "BatchSize": 10,
           "ExtrapolationThreshold": 0.7,
           "HighCutRate": 0.1,
-          "LowCutRate": 0.4,
+          "LowCutRate": 0.5,
           "MaxDistance": 50.0,
-          "MaxIteration": 10,
+          "MaxIteration": 100,
           "MaxNormalAngle": 30.0,
           "MaxSampleCount": 2000,
           "MaxUnchangeCount": 5,
-          "MinError": 0.15,
-          "MinErrorDiff": 0.02,
+          "Metric": "PointToPlane",
+          "MinError": 0.0,
+          "MinErrorDiff": 0.05,
           "SampleRadius": 5.0,
           "SampleRandomRatio": 0.05,
           "SampleSkipRadius": 1.0,
           "SampleThreshold": 0.98,
-          "ThreadCount": 1
+          "ThreadCount": 2
         },
         "PointCloudICPAlignerRefine": {
           "BatchSize": 10,
@@ -449,6 +1375,280 @@
           "SamplePerNode": 1.0,
           "Scale": 1.1,
           "SolverDivide": 8
+        },
+        "Projector": {
+          "BlueLedPwr": 10,
+          "DeviceInfo": null,
+          "DisplayMode": "PatternPS4",
+          "ExposureTime": 2000,
+          "GreenLedPwr": 10,
+          "RedLedPwr": 10
+        },
+        "TemplateMatching3D": {
+          "AngleStep": 6.0,
+          "DistanceStep": 5.0,
+          "FeatureSearchRadius": 0.5,
+          "MatchCutRate": 0.5,
+          "MaxBucketSize": 200,
+          "MaxHypothesis": 500,
+          "MaxMatchCount": 10000,
+          "MinScore": 0.3,
+          "MinSumAngle": 30.0,
+          "OverlapRadius": 1.0,
+          "OverlapSimplifyRadius": 5.0,
+          "ResultCount": 1,
+          "RotationClusterRadius": 4.0,
+          "SearchMethod": "HashTable",
+          "SearchSimplifyRadius": 6.0,
+          "TrainSimplifyRadius": 2.0,
+          "TranslationClusterRadius": 5.0
+        },
+        "TurnTable": {
+          "AutoCalibAngle": 40.0,
+          "AutoCalibPoseCount": 7,
+          "AutoScanAngle": 20.0,
+          "Enable": true,
+          "IP": "192.168.4.1",
+          "StepDelay": 1000,
+          "StepPerRevolution": 100000,
+          "UseWifi": false
+        }
+      },
+      "test": {
+        "AutoScan": {
+          "AutoCalibAngle": 40.0,
+          "AutoCalibPoseCount": 7,
+          "AutoScanAngle": 20.0,
+          "EnableAutoClean": false,
+          "EnableAutoFuse": true,
+          "EnableAutoICP": true,
+          "EnableAutoOptimize": false,
+          "EnableAutoSimplify": false,
+          "ErodeRadius": 5
+        },
+        "Camera": {
+          "BufferCount": 12,
+          "DeviceInfo": null,
+          "EnableGamma": true,
+          "EnableTrigger": true,
+          "ExposureTime": 4166,
+          "GainAll": 1.0,
+          "Gamma": 1.0,
+          "Output1": false,
+          "PixelFormat": "Mono8",
+          "ReverseX": false,
+          "ReverseY": false,
+          "TriggerEdge": "Rising",
+          "TriggerSource": "Software",
+          "WhiteBalance": "Continuous"
+        },
+        "Decoder": {
+          "BlackWhiteSensitivity": 5,
+          "BorderWidth": 2,
+          "CameraModel": {
+            "D": {
+              "cols": 0,
+              "data": [],
+              "dt": "d",
+              "rows": 0
+            },
+            "Error": -1.0,
+            "K": {
+              "cols": 0,
+              "data": [],
+              "dt": "d",
+              "rows": 0
+            },
+            "Resolution": [
+              0,
+              0
+            ]
+          },
+          "Debug": false,
+          "DebugDir": "D:/debug/",
+          "Dz": 5.0,
+          "EnableTexture": false,
+          "EncodingType": "BinaryXor0_PhaseShift4x4px",
+          "Hpc": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Hpose": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "MaxGrayLevel": 150,
+          "MaxNormalAngle": 80.0,
+          "MinPhaseConfident": 0.5,
+          "NormalBlurRadius": 1,
+          "PhaseBlurRadius": 1,
+          "PointcloudBlurRadius": 0,
+          "ProjectorModel": {
+            "D": {
+              "cols": 0,
+              "data": [],
+              "dt": "d",
+              "rows": 0
+            },
+            "Error": -1.0,
+            "K": {
+              "cols": 0,
+              "data": [],
+              "dt": "d",
+              "rows": 0
+            },
+            "Resolution": [
+              0,
+              0
+            ]
+          },
+          "ScannerType": "Horizontal",
+          "Sensitivity": 2,
+          "Step": 1,
+          "TextureExposure": 33333,
+          "ViewPosition": "Camera",
+          "Zmax": 600.0,
+          "Zmin": 300.0
+        },
+        "Detector": {
+          "BlurRadius": 7,
+          "MaxDotArea": 1000.0,
+          "MaxDotAreaMultiplier": 6.0,
+          "MinDotArea": 50.0,
+          "MinDotAreaMultiplier": 0.6,
+          "MinDotRatio": 0.3,
+          "MinKeypointCount": 30,
+          "MorphRadius": 1,
+          "PXMax": 2,
+          "PXMin": -2,
+          "PYMax": 2,
+          "PYMin": -2,
+          "PatternDim": 20.0,
+          "PatternType": "CircleGridWhiteOnGray",
+          "QuadraticFit": false,
+          "XMax": 10,
+          "XMin": -10,
+          "YMax": 7,
+          "YMin": -7
+        },
+        "MonteCarloSampler": {
+          "Resolution": 0.05
+        },
+        "OtherSettings": {
+          "ChainMaxNeighbourDistance": 1.0,
+          "ChainMinLength": 5,
+          "ClippingDistance": 10.0,
+          "CurvatureRadius": 5.0,
+          "CurvatureThreshold": 0.20000000298023224,
+          "IntersectRadius": 3.0,
+          "MaxCurvatureAngle": 60.0,
+          "NormalSmoothRadius": 3.0,
+          "OverlapMaxRadius": 5.0,
+          "ShowShereROI": true,
+          "SphereROIRadius": 10.0,
+          "SubtractRadius": 3.0,
+          "VectorLength": 5.0,
+          "VertexSmoothRadius": 3.0
+        },
+        "PointCloudICPAligner": {
+          "BatchSize": 10,
+          "ExtrapolationThreshold": 0.7,
+          "HighCutRate": 0.1,
+          "LowCutRate": 0.4,
+          "MaxDistance": 50.0,
+          "MaxIteration": 30,
+          "MaxNormalAngle": 30.0,
+          "MaxSampleCount": 2000,
+          "MaxUnchangeCount": 5,
+          "Metric": "PointToPlane",
+          "MinError": 0.1,
+          "MinErrorDiff": 0.05,
+          "SampleRadius": 5.0,
+          "SampleRandomRatio": 0.05,
+          "SampleSkipRadius": 1.0,
+          "SampleThreshold": 0.98,
+          "ThreadCount": 1
+        },
+        "PointCloudOutlierRemovalFilter": {
+          "MinNeighbourCount": 4,
+          "Radius": 1.0
+        },
+        "PointCloudPlaneRemovalFilter": {
+          "Tolerance": 1.0
+        },
+        "PointCloudSmallClusterFilter": {
+          "MinClusterSize": 500,
+          "Radius": 1.0
+        },
+        "PointCloudUniformSampler": {
+          "Radius": 0.1
+        },
+        "PoissonSurfaceReconstructor": {
+          "Depth": 8,
+          "IsoDivide": 8,
+          "SamplePerNode": 1.0,
+          "Scale": 1.1,
+          "SolverDivide": 8
+        },
+        "Projector": {
+          "BlueLedPwr": 10,
+          "DeviceInfo": null,
+          "DisplayMode": "PatternPS4",
+          "ExposureTime": 16666,
+          "GreenLedPwr": 10,
+          "RedLedPwr": 10
+        },
+        "TemplateMatching3D": {
+          "AngleStep": 6.0,
+          "DistanceStep": 5.0,
+          "FeatureSearchRadius": 0.5,
+          "MaxBucketSize": 200,
+          "MaxHypothesis": 500,
+          "MaxMatchCount": 10000,
+          "MinScore": 0.3,
+          "MinSumAngle": 30.0,
+          "OverlapRadius": 1.0,
+          "OverlapSimplifyRadius": 5.0,
+          "ResultCount": 1,
+          "RotationClusterRadius": 4.0,
+          "SearchMethod": "SearchTree",
+          "SearchSimplifyRadius": 6.0,
+          "TrainSimplifyRadius": 2.0,
+          "TranslationClusterRadius": 5.0
+        },
+        "TurnTable": {
+          "IP": "192.168.4.1",
+          "StepDelay": 1000,
+          "StepPerRevolution": 100000,
+          "UseWifi": false
         }
       }
     },

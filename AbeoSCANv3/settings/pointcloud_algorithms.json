@@ -1,0 +1,58 @@
+{
+  "PointcloudConnectedComponentExtractor": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "MaxDistance": 0.5,
+        "MinChainLength": 100,
+        "Radius": 0.5
+      }
+    }
+  },
+  "PointcloudEdgeDetector": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "AngleThreshold": 90.0,
+        "NeighbourCount": 12,
+        "ThreadCount": 16
+      }
+    }
+  },
+  "PointcloudOutlierFilter": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "MinNeighbourCount": 5,
+        "Radius": 1.0,
+        "ThreadCount": 16
+      }
+    }
+  },
+  "PointcloudOverlapCounter": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "Radius": 1.0,
+        "ThreadCount": 1
+      }
+    }
+  },
+  "PointcloudSmallClusterFilter": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "MinClusterSize": 100,
+        "Radius": 1.0
+      }
+    }
+  },
+  "PointcloudUniformSampler": {
+    "LastProfile": "Default",
+    "Profiles": {
+      "Default": {
+        "Radius": 0.5
+      }
+    }
+  }
+}

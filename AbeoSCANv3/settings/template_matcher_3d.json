@@ -1,0 +1,26 @@
+{
+  "LastProfile": "Default",
+  "Profiles": {
+    "Default": {
+      "AngleStep": 6.0,
+      "Debug": false,
+      "DistanceStep": 5.0,
+      "FeatureSearchRadius": 0.5,
+      "MaxBucketSize": 200,
+      "MaxHypothesis": 500,
+      "MaxMatchCount": 10000,
+      "MinScore": 0.30000001192092896,
+      "MinSumAngle": 30.0,
+      "OverlapRadius": 1.0,
+      "OverlapSimplifyRadius": 5.0,
+      "OverlapThreshold": 1.0,
+      "ResultCount": 1,
+      "RotationClusterRadius": 4.0,
+      "SearchMethod": "HashTable",
+      "SearchSimplifyRadius": 4.0,
+      "ThreadCount": 16,
+      "TrainSimplifyRadius": 2.0,
+      "TranslationClusterRadius": 5.0
+    }
+  }
+}
