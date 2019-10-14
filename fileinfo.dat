@@ -18,7 +18,7 @@ a5ac962738d38b69af0b4dfbeb907245683df3ba  ./AbeoSCANv3/lotus_qt_v140_x64.dll
 69b9a48fb2cee1f4698a69c64d98ebc9eb6111f6  ./AbeoSCANv3/opencv_ffmpeg410_64.dll
 13c9808a22d8a7f88ed4ce3cc72e6e75aaa2775a  ./AbeoSCANv3/opencv_world410.dll
 913e61e8842876da8302c495fcda1c02d6995785  ./AbeoSCANv3/platforms/qwindows.dll
-25cc725177f2875b863e4d03a124063190a6e566  ./AbeoSCANv3/PrimerCheck_v140_x64.exe
+9d6c2ecb6c305d4060c3a07a561df3d0fe85bbd3  ./AbeoSCANv3/PrimerCheck_v140_x64.exe
 54575412347038f5e5a91b9d1a8562d239cdb441  ./AbeoSCANv3/Qt53DCore.dll
 7faca53d9f4a642caa8fc9d3469cbe14d844fcc1  ./AbeoSCANv3/Qt5Core.dll
 1436b04c3a8d8f28a072fc25d68a49fa33166c52  ./AbeoSCANv3/Qt5Gui.dll
@@ -47,7 +47,7 @@ e15d87d0a317113dcc3da12bf2c3daaf501cda99  ./BaslerGenICamSource_v5_0.ax
 e030ab3e08ca7c282fc704dff1e1ff60332e515b  ./concrt140.dll
 a1c0a720067529f51c710991c65ec33905c5fe97  ./cvlib.dll
 9a45c2c6c1d0165782771816e56d7f2aea29d079  ./devices.dat
-7988c1e4f574e1d39e15497505e16b196ceb5680  ./fileinfo.dat
+10f0c5629e5b0ee7575c9046d2ede458aca8438c  ./fileinfo.dat
 cd88866845ea19c5eacdb543e0c17e4b5a336049  ./firmware/as4500_fw_tool.exe
 f1e18c5604cf65fb132e2bd6c06a130d44704471  ./firmware/as4500_fw_upgrade.exe
 7082bdc17358abdbbff836ebfa16f51f96afddf4  ./firmware/AS4500_V3.0_dev.bin
