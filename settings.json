@@ -1582,7 +1582,7 @@
           "BatchSize": 10,
           "ExtrapolationThreshold": 0.7,
           "HighCutRate": 0.1,
-          "LowCutRate": 0.4,
+          "LowCutRate": 0.6,
           "MaxDistance": 50.0,
           "MaxIteration": 30,
           "MaxNormalAngle": 30.0,
